@@ -6,6 +6,7 @@ There is an on-going effort to place **Cardano** into classic release of openSUS
 
 ## Open Projects
 - [Enable GHC 9.0.x build of Cardano components](https://github.com/2nd-Layer/cardano-core-integration-testing/projects/2)
+- [Rust Crate for Cardano Ouroboros Networking Layer](https://github.com/2nd-Layer/rust-cardano-ouroboros-network)
 
 ### Achieved milestones
 
