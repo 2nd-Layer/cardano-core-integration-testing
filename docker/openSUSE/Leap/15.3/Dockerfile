@@ -1,6 +1,6 @@
 FROM opensuse/leap:15.3
 
-ENV CARDANO_NODE_VERSION="1.26.0"
+ARG CARDANO_NODE_VERSION="1.26.0"
 
 RUN zypper -n \
   addrepo \
@@ -26,6 +26,7 @@ RUN cabal new-update
 RUN cabal new-build \
   --allow-newer \
   --allow-older \
+  --avoid-reinstalls \
   --dry-run \
   --only-configure \
   --project-file=cabal.nosystemd.project \
@@ -41,6 +42,22 @@ WORKDIR /usr/src/cardano-node
 RUN cabal new-build \
   --allow-newer \
   --allow-older \
+  --avoid-reinstalls \
+  --dry-run \
+  --only-configure \
+  --project-file=cabal.nosystemd.project \
+  -f -external-libsodium-vrf \
+  all
+
+WORKDIR /usr/src
+RUN rm *.txt
+RUN ./plan2rpms.sh
+
+WORKDIR /usr/src/cardano-node
+RUN cabal new-build \
+  --allow-newer \
+  --allow-older \
+  --avoid-reinstalls \
   --project-file=cabal.nosystemd.project \
   -f -external-libsodium-vrf \
   all

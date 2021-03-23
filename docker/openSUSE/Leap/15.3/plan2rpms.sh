@@ -1,9 +1,13 @@
 #!/bin/bash
 
-DEPS_COUNT=$(jq '."install-plan" | length' < cardano-node/dist-newstyle/cache/plan.json)
+set -e
+
+PLAN_JSON=$(find -name plan.json)
+
+DEPS_COUNT=$(jq '."install-plan" | length' < ${PLAN_JSON})
 
 for foo in `seq 0 $(($DEPS_COUNT-1))`; do
-  PKG=`jq '."install-plan"['$foo']' < cardano-node/dist-newstyle/cache/plan.json`
+  PKG=`jq '."install-plan"['$foo']' < ${PLAN_JSON}`
   PKG_STYLE=`echo $PKG | jq '.style'`
   if [ "$PKG_STYLE" = '"global"' ]; then
     echo $PKG | jq '."pkg-name"' | sed -e 's/^"//' -e 's/"$//' >> hackage-dependencies.txt
