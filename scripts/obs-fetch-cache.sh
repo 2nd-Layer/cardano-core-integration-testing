@@ -7,6 +7,17 @@ if ! which osc >/dev/null 2>&1; then
   exit 2
 fi
 
+if [ ! -f ~/.oscrc ]; then
+  echo '[general]' >> ~/.oscrc
+  echo 'apiurl = https://api.opensuse.org' >> ~/.oscrc
+  echo '' >> ~/.oscrc
+  echo '[https://api.opensuse.org/]' >> ~/.oscrc
+  echo 'realname = PERLUR OBS Automation' >> ~/.oscrc
+  echo 'email = perlur.cloud@gmail.com' >> ~/.oscrc
+  echo 'user=perlur-obs-automation' >> ~/.oscrc
+  echo 'pass='${PERLUR_OBS_AUTOMATION_PASS} >> ~/.oscrc
+fi
+
 OBS_PRJ_STABLE=$(jq -r '.stable' < obs/config/projects.json)
 OBS_PRJ_NIGHTLY=$(jq -r '.nightly' < obs/config/projects.json)
 

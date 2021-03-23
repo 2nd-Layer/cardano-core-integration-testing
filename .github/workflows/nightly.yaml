@@ -20,6 +20,8 @@ jobs:
         run: sudo apt-get install osc
       - name: Fetch OBS cache
         run: scripts/obs-fetch-cache.sh
+        env:
+          PERLUR_OBS_AUTOMATION_PASS: ${{ secrets.PERLUR_OBS_AUTOMATION_PASS }}
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:
