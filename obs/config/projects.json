@@ -1,0 +1,4 @@
+{
+  "stable": "devel:languages:haskell:cardano",
+  "nightly": "devel:languages:haskell:cardano:nightly"
+}
