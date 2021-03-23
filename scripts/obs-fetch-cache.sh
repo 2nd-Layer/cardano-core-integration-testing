@@ -21,15 +21,19 @@ fi
 OBS_PRJ_STABLE=$(jq -r '.stable' < obs/config/projects.json)
 OBS_PRJ_NIGHTLY=$(jq -r '.nightly' < obs/config/projects.json)
 
-pushd obs/cache/
-
-if [ -d ${OBS_PRJ_STABLE} ]; then
-  pushd ${OBS_PRJ_STABLE}
+function clean_dirty_project() {
   for dir in $(ls); do
     if [ ! -f ${dir}/*.spec ]; then
       rm -rf ${dir}
     fi
   done
+}
+
+pushd obs/cache/
+
+if [ -d ${OBS_PRJ_STABLE} ]; then
+  pushd ${OBS_PRJ_STABLE}
+  clean_dirty_project
   osc up
   popd
 else
@@ -38,8 +42,9 @@ fi
 
 if [ -d ${OBS_PRJ_NIGHTLY} ]; then
   pushd ${OBS_PRJ_NIGHTLY}
+  clean_dirty_project
   osc up
   popd
 else
   osc co ${OBS_PRJ_NIGHTLY}
-fi
+fi 
