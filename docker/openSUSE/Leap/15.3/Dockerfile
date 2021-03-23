@@ -34,7 +34,7 @@ RUN cabal new-build \
 
 WORKDIR /usr/src
 COPY plan2rpms.sh ./
-RUN plan2rpms.sh
+RUN ./plan2rpms.sh
 RUN cat installable-hackage-dependencies.txt | xargs zypper -n install
 
 WORKDIR /usr/src/cardano-node
