@@ -17,7 +17,7 @@ jobs:
           persist-credentials: false
           fetch-depth: 0
       - name: Install Open Build Service commander
-        run: sudo apt-get install osc
+        run: sudo apt-get install osc python3-m2crypto
       - name: Fetch OBS cache
         run: scripts/obs-fetch-cache.sh
         env:
