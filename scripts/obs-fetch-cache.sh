@@ -25,6 +25,7 @@ pushd obs/cache/
 
 if [ -d ${OBS_PRJ_STABLE} ]; then
   pushd ${OBS_PRJ_STABLE}
+  find
   osc up
   popd
 else
