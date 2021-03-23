@@ -19,7 +19,11 @@ jobs:
       - name: Install Open Build Service commander
         run: sudo apt-get install osc python3-m2crypto
       - name: Fetch OBS cache
-        run: scripts/obs-fetch-cache.sh
+        uses: nick-invision/retry@v2
+        with:
+          timeout_minutes: 10
+          max_attempts: 3
+          command: scripts/obs-fetch-cache.sh
         env:
           PERLUR_OBS_AUTOMATION_PASS: ${{ secrets.PERLUR_OBS_AUTOMATION_PASS }}
       - name: Commit & Push changes
