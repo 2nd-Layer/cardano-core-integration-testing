@@ -1,0 +1,28 @@
+name: Nightly maintenance job
+
+on:
+  push:
+    branches: [ automation ]
+  schedule:
+    - cron: "0 0 * * *" # Run daily at midnight
+
+jobs:
+  obs-cache-fetch:
+    runs-on: ubuntu-latest
+    name: Fetch & commit OBS cache
+    steps:
+      - name: Checkout Git repository
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - name: Install Open Build Service commander
+        run: sudo apt-get install osc
+      - name: Fetch OBS cache
+        run: scripts/obs-fetch-cache.sh
+      - name: Commit & Push changes
+        uses: actions-js/push@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          message: 'chore: Fetch OBS cache'
+          directory: 'obs/cache/'
