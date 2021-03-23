@@ -2,7 +2,7 @@ name: Nightly maintenance job
 
 on:
   push:
-    branches: [ automation ]
+    branches: [ nightly-job-test ]
   schedule:
     - cron: "0 0 * * *" # Run daily at midnight
 
