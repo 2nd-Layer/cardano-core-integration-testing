@@ -1,0 +1,34 @@
+name: Nightly maintenance job
+
+on:
+  push:
+    branches: [ nightly-job-test ]
+  schedule:
+    - cron: "0 0 * * *" # Run daily at midnight
+
+jobs:
+  obs-cache-fetch:
+    runs-on: ubuntu-latest
+    name: Fetch & commit OBS cache
+    steps:
+      - name: Checkout Git repository
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - name: Install Open Build Service commander
+        run: sudo apt-get install osc python3-m2crypto
+      - name: Fetch OBS cache
+        uses: nick-invision/retry@v2
+        with:
+          timeout_minutes: 10
+          max_attempts: 3
+          command: scripts/obs-fetch-cache.sh
+        env:
+          PERLUR_OBS_AUTOMATION_PASS: ${{ secrets.PERLUR_OBS_AUTOMATION_PASS }}
+      - name: Commit & Push changes
+        uses: actions-js/push@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          message: 'chore: Fetch OBS cache'
+          directory: 'obs/cache/'
