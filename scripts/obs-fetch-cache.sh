@@ -25,7 +25,7 @@ pushd obs/cache/
 
 if [ -d ${OBS_PRJ_STABLE} ]; then
   pushd ${OBS_PRJ_STABLE}
-  find
+  find ./ \( ! -name '*.spec' \)
   osc up
   popd
 else
