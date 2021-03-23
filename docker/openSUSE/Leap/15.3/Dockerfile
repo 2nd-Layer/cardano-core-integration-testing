@@ -10,7 +10,7 @@ RUN zypper --gpg-auto-import-keys refresh -s
 RUN zypper -n dist-upgrade
 RUN zypper -n install cabal-install \
       git-core \
-      ghc \
+      ghc-devel \
       jq \
       libsodium-devel
 
