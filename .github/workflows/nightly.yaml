@@ -37,7 +37,7 @@ jobs:
     name: Check cardano-node Docker images version on Docker Hub
     strategy:
       matrix:
-        docker_base_image  [centos, osleap, ostw]
+        docker_base_image: [centos, osleap, ostw]
     steps:
       - name: Chech tag centos-cardano-node version from Docker Hub
         run: scripts/docker-hub-check.sh
