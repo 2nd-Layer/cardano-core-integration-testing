@@ -15,7 +15,7 @@ DOCKER_HUB_IMAGE_VER=$(curl -L --fail --silent \
      sort --version-sort | \
     tail -n 1)
 
-if [ -z ${DOCKER_HUB_IMAGE_VER} ]; then
+if [ ! -z ${DOCKER_HUB_IMAGE_VER} ]; then
     echo "Found Docker image: ${DOCKER_IMAGE_NAME}:${DOCKER_HUB_IMAGE_VER}"
 else
     exit 1
