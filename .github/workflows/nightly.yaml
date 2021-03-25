@@ -4,7 +4,7 @@ on:
   push:
     branches: [ nightly-job-test ]
   schedule:
-    - cron: "0 0 * * *" # Run daily at midnight
+    - cron: "0 17 * * *" # Run daily at midnight
 
 jobs:
   obs-cache-fetch:
@@ -32,3 +32,21 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           message: 'chore: Fetch OBS cache'
           directory: 'obs/cache/'
+  docker-check:
+    runs-on: ubuntu-latest
+    name: Check cardano-node Docker images version on Docker Hub
+    strategy:
+      matrix:
+        docker_base_image: [centos, osleap, ostw]
+        docker_application: [ cardano-node, cardano-cli, cardano-rt-view]
+    steps:
+      - name: Checkout Git repository
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - name: Chech tag centos-cardano-node version from Docker Hub
+        run: scripts/docker-hub-check.sh
+        env:
+          DOCKER_BASE_IMAGE: ${{ matrix.docker_base_image }}
+          DOCKER_APPLICATION: ${{ matrix.docker_application }}
