@@ -1,0 +1,8 @@
+<directory name="cardano-rt-view" rev="10" vrev="3" srcmd5="ffce870c3aee470242324b434b227d09">
+  <serviceinfo code="succeeded" xsrcmd5="6e4d20f3d9823af44b6a7a6e0620015b" />
+  <entry name="_service" md5="dc079d2eda34fdc6068b74444b6f0f3d" size="605" mtime="1608442685" />
+  <entry name="_servicedata" md5="7c51d0a60a0adad0434b86c6b2c65d2b" size="252" mtime="1608442686" />
+  <entry name="cardano-rt-view-0.3.0.tar.xz" md5="9ef2ec61f3650ed11a7e4ae59c090f8b" size="248232" mtime="1608442710" />
+  <entry name="cardano-rt-view.changes" md5="a58403e8c4c33af6b30ae7330ae40163" size="3309" mtime="1608494380" />
+  <entry name="cardano-rt-view.spec" md5="3407b4257eb317813998b649328db157" size="3064" mtime="1608494380" />
+</directory>

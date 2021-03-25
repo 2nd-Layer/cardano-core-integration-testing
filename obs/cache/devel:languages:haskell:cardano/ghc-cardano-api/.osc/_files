@@ -1,0 +1,8 @@
+<directory name="ghc-cardano-api" rev="5" vrev="2" srcmd5="41456dd083580ad9d6844ba7278e97c6">
+  <serviceinfo code="succeeded" xsrcmd5="32bd5a87871183a8e77e8693fdea4cef" />
+  <entry name="_service" md5="59a56005e72c99ae39b957b51f0f4921" size="610" mtime="1604870003" />
+  <entry name="_servicedata" md5="0d375c0188f5d51e269c4e33e51ea31e" size="249" mtime="1604870004" />
+  <entry name="cardano-api-1.22.1.tar.xz" md5="17e6f611e464d86c2ce8e22adb63d9c5" size="53476" mtime="1604870004" />
+  <entry name="ghc-cardano-api.changes" md5="166309d8479d1f3b011217fa775af6ec" size="547" mtime="1604870004" />
+  <entry name="ghc-cardano-api.spec" md5="664f457a78cd123a072f39aa2b17bbc5" size="4184" mtime="1606668263" />
+</directory>

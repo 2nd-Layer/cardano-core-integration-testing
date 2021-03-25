@@ -1,0 +1,8 @@
+<package name="ghc-cardano-ledger" project="devel:languages:haskell:cardano">
+  <title>The blockchain layer of Cardano</title>
+  <description>The blockchain layer of Cardano.
+
+</description>
+  <url>https://github.com/input-output-hk/cardano-ledger-specs/tree/master/byron/ledger</url>
+</package>
+

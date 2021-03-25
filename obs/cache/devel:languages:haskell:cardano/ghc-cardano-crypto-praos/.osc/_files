@@ -1,0 +1,9 @@
+<directory name="ghc-cardano-crypto-praos" rev="6" vrev="6" srcmd5="9e63fa554913cc84fe9702d4209a9279">
+  <serviceinfo code="succeeded" xsrcmd5="7291bcef4d0b4a7bde1d3513fc374d18" />
+  <entry name="_service" md5="a7415b14c8fb5d3ed23737ee460bacbd" size="623" mtime="1603259659" />
+  <entry name="_servicedata" md5="8c0e9e0f0551d72fbac69d9b85296967" size="245" mtime="1606674277" />
+  <entry name="cardano-crypto-praos-2.0.0.tar.xz" md5="2f606630b3cc27af9aa5f80fca45b221" size="96488" mtime="1606674278" />
+  <entry name="cardano-crypto-praos.cabal" md5="dd81413b9b0909146586642b5b215ce4" size="2595" mtime="1603258827" />
+  <entry name="ghc-cardano-crypto-praos.changes" md5="7ea3adae7b28964adf88a04340f0dd1e" size="1159" mtime="1606674278" />
+  <entry name="ghc-cardano-crypto-praos.spec" md5="39e0626275d9a7937616400d8233fcd3" size="2111" mtime="1606668272" />
+</directory>

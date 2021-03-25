@@ -1,0 +1,98 @@
+-------------------------------------------------------------------
+Fri Nov 27 16:15:16 UTC 2020 - Mark Stopka <mstopka@opensuse.org>
+
+- Update to version 2020.11.26:
+  * Bump version from 2020.11.17 to 2020.11.26
+  * get rid of 'OnDanglingChange' option for fee balancing
+  * tests: Reduce size of arbitrary TxMetadata in TxHistory
+  * tests: Try to fix oversized TxHistory generator
+  * Revert "Add missing JSON roundtrip test for `ApiAddress`."
+  * Reformat code to comply with team coding standards.
+  * Reword `RewardAccount` module comment.
+  * Do not re-export UTxO-related types from `Primitive.Types`.
+  * Move primitive UTxO types to separate module.
+  * Add a module comment for `Primitive.Types.Tx`.
+  * Clarify the module comment for `Primitive.Types.Address`.
+  * Rename `ChimericAccount` to `RewardAccount`.
+  * Apply hlint and stylish suggestions.
+  * Do not re-export transaction types from `Primitive.Types`.
+  * Move primitive transaction types to separate module.
+  * Do not re-export `ChimericAccount` from `Primitive.Types`.
+  * Move primitive `ChimericAccount` type to separate module.
+  * Update benchmarks to import primitive types from dedicated modules.
+  * Do not re-export `Address` from `Primitive.Types`.
+  * Move primitive `Address` type to separate module.
+  * Do not re-export `Coin` from `Primitive.Types`.
+  * Move primitive `Coin` type to separate module.
+  * Fix bug in delisted pools not clearing
+  * Add SMASH integration test
+  * Bump version from 2020.11.3 to 2020.11.17
+  * Update cardano-addresses to 3.1.0
+  * revise API documentation regarding address construction from script
+  * return non-extended public key (without chain code) as 'ApiVerificationKey'
+  * Integration tests for triggering maintenance action while metadata source is none or direct
+  * Make PostPoolMaintenance to be 204 No Content to comply with swagger
+  * Use servant-openapi3
+  * Remove unnecessary dependencies
+  * Fix at_least
+  * Get rid of remaining oneOf workarounds and validate patterns
+  * Fix parsing of SMASHPoolId, thanks to Piotr
+  * Use openapi3 for schema tests
+  * unify gcPoolStatus and maintenance action for a cleaner API
+  * Move maintenance-actions to its own endpoint
+  * Adjust `removePools` to not remove pools from the delisted set.
+  * Remove `prop_putDelistedPoolsPersists`.
+  * Update `prop_putDelistedPools` to check for overwriting.
+  * Rename `delistPools` to `putDelistedPools`.
+  * Make `delistPools` replace the set of delisted pools.
+  * Rename `delisted_pools` table to `pool_delistment`.
+  * Record delisted pools in a dedicated table.
+  * Update lib/core/src/Cardano/Wallet/Api/Types.hs
+  * Add missing golden files
+  * Fix 'Arbitrary (ApiListStakePools ApiStakePool)'
+  * Add 'ApiT PoolMetadataGCStatus' to json roundtrip explicitly
+  * Fix putPoolRegisration to consider the delisted flag
+  * Add prop_delistPoolsPersists, which fails right now
+  * Add /stake-pools/metadata-gc-status endpoint
+  * Redo how we report GC status of metadata
+  * Add property test for `delistPools`
+  * Add DB test for last GC time
+  * Change DB representation of POSIXTime
+  * Add stake pool maintenance endpoint
+  * Return GC sync time as well from ListStakePools
+  * Add GC worker thread for delisting Pools
+  * Add internal_state table
+  * Add `delistPools` to Pool DBLayer
+  * Rework - move instance FromText NominalDiffTime into text-class
+  * CLI: Review rework - use same parser for ttl as for sync tolerance
+  * Move `Hash` tests into dedicated `HashSpec` module.
+  * Move `Hash` type and related functions into dedicated module.
+  * Review rework
+  * Simplify mRemovePendingTx model and state machine
+  * Also permit deleting expired transactions
+  * Review rework about PastHorizonException handling
+  * Add epochLength and slotLength to the SHELLEY_NETWORK test
+  * Rename unused DB fields
+  * Get epoch and slot lengths from HFC History Interpreter
+  * drop script and pub_key
+  * Update CLI golden test
+  * ApiCredentials -> ApiAddressData
+  * move postAnyAddress to shelley and use proper network discrimination there plus code reshuffling
+  * renaming to ApiCredential and change data constructors
+  * add Api.Link for postAnyAddress
+  * add base address impl
+  * add reward account impl
+  * implementation of enterprise addresses
+  * add AnyAddress
+  * add ApiCredential and ApiCredentials
+  * update core:unit
+  * introduce ApiScript
+  * add endpoint
+  * Revise error codes:  - 404 when wallet not found  - 403 when transaction is too big
+  * Fixups which are difficult to squash
+  * Fix listWallets race condition
+
+-------------------------------------------------------------------
+Mon Nov  9 00:40:54 UTC 2020 - Mark Stopka <mstopka@opensuse.org>
+
+- Initial package

@@ -1,0 +1,8 @@
+<directory name="ghc-shelley-spec-non-integral" rev="3" vrev="3" srcmd5="6d4f9693a8e0789357c68e9933d3ce0f">
+  <serviceinfo code="succeeded" xsrcmd5="795d2860eea652053b9584ba0dad1598" />
+  <entry name="_service" md5="4c171a849d2479718ef0d1dd9fcc1045" size="671" mtime="1604111237" />
+  <entry name="_servicedata" md5="719b0dccb474e7737f0840d6f893f25c" size="257" mtime="1606674328" />
+  <entry name="ghc-shelley-spec-non-integral.changes" md5="a900f5a039b5f5b4fb14508db43e6f7d" size="404" mtime="1606674328" />
+  <entry name="ghc-shelley-spec-non-integral.spec" md5="5b78fd4ad490ea44058687f826b3dff9" size="1958" mtime="1606668351" />
+  <entry name="shelley-spec-non-integral-0.1.0.0.tar.xz" md5="83d241573719e49fce82e8d4a41f2771" size="12760404" mtime="1606674329" />
+</directory>

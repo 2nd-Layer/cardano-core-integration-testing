@@ -1,0 +1,8 @@
+<directory name="ghc-iohk-monitoring" rev="5" vrev="5" srcmd5="3ff7c5e909f200c911c9607c983db6b9">
+  <serviceinfo code="succeeded" xsrcmd5="2a8edf170b0262e23bf2b8a89066f823" />
+  <entry name="_service" md5="cfd020350c0ce37663b2e52f3f0e17cf" size="633" mtime="1603891298" />
+  <entry name="_servicedata" md5="d111ab0842855f02e8c2345cef74ad69" size="262" mtime="1606674300" />
+  <entry name="ghc-iohk-monitoring.changes" md5="6bac35cde4db520fac0f5b5f19290b20" size="1037" mtime="1606674300" />
+  <entry name="ghc-iohk-monitoring.spec" md5="b0355fb122cb891bcaf2b31a3c1cc4f0" size="3394" mtime="1606668308" />
+  <entry name="iohk-monitoring-0.1.10.1.tar.xz" md5="41dc91469b68211d5b696e9168f354ab" size="99136" mtime="1606674300" />
+</directory>

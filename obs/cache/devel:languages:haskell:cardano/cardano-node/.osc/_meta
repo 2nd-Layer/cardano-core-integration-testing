@@ -1,0 +1,8 @@
+<package name="cardano-node" project="devel:languages:haskell:cardano">
+  <title>The Cardano full node in Haskell</title>
+  <description>The core component that is used to participate in a Cardano decentralised blockchain.
+
+</description>
+  <url>https://github.com/input-output-hk/cardano-node</url>
+</package>
+

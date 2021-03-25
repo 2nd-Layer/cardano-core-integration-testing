@@ -1,0 +1,4 @@
+<servicedata>
+<service name="tar_scm">
+                <param name="url">https://github.com/input-output-hk/goblins.git</param>
+              <param name="changesrevision">cde90a2b27f79187ca8310b6549331e59595e7ba</param></service></servicedata>

@@ -1,0 +1,8 @@
+<directory name="ghc-shelley-spec-ledger" rev="4" vrev="4" srcmd5="0a5b837d9143b19c24ac31094ad76e01">
+  <serviceinfo code="succeeded" xsrcmd5="8c9be11432739c29178e6392ab5000eb" />
+  <entry name="_service" md5="5a35f2c10d17a351e9b319ef5e1c63d3" size="656" mtime="1604109513" />
+  <entry name="_servicedata" md5="c3ffb53efe7f40e504472d8723cb6f83" size="257" mtime="1607633794" />
+  <entry name="ghc-shelley-spec-ledger.changes" md5="949b2c4517996ead60c58d85f56eb1a3" size="2189" mtime="1607633795" />
+  <entry name="ghc-shelley-spec-ledger.spec" md5="a00da2b2a5e156860203f9478997541b" size="2934" mtime="1607633795" />
+  <entry name="shelley-spec-ledger-0.1.0.0.tar.xz" md5="a44c3238e42365d00a4c5cbed0ba33a8" size="87304" mtime="1607633796" />
+</directory>

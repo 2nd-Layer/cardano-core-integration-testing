@@ -1,0 +1,8 @@
+<directory name="ghc-ouroboros-network-framework" rev="4" vrev="4" srcmd5="933c774572d033930312255667f579a1">
+  <serviceinfo code="succeeded" xsrcmd5="d13c85e143a0d127c5717b2ac17c0dc0" />
+  <entry name="_service" md5="3e89cc70ac3d246eac9e01596f9262b6" size="648" mtime="1604107629" />
+  <entry name="_servicedata" md5="8ba90e7ff5ec5131a9d0785dd87adb26" size="254" mtime="1606674323" />
+  <entry name="ghc-ouroboros-network-framework.changes" md5="ffb5cfaa6d2202c2065ea6ee6d7e6e07" size="953" mtime="1606674323" />
+  <entry name="ghc-ouroboros-network-framework.spec" md5="da4473d0bd0cb2eaca0cf087ee8f63df" size="3013" mtime="1606668346" />
+  <entry name="ouroboros-network-framework-0.1.0.0.tar.xz" md5="c8e593c53d9d3fd530358cfd16023451" size="63788" mtime="1606674323" />
+</directory>

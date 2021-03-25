@@ -1,0 +1,4 @@
+<servicedata>
+<service name="tar_scm">
+                <param name="url">https://github.com/input-output-hk/iohk-monitoring-framework.git</param>
+              <param name="changesrevision">ac256d7e15b56220e40caa4624325b88c41a3b68</param></service></servicedata>

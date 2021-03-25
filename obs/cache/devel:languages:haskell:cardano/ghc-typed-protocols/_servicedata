@@ -1,0 +1,4 @@
+<servicedata>
+<service name="tar_scm">
+                <param name="url">https://github.com/input-output-hk/ouroboros-network.git</param>
+              <param name="changesrevision">1049cd09f5eabffcd915f7323acdf1e140e1a4e1</param></service></servicedata>

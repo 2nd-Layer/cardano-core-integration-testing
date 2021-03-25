@@ -1,0 +1,4 @@
+<servicedata>
+<service name="tar_scm">
+                <param name="url">https://github.com/input-output-hk/cardano-wallet.git</param>
+              <param name="changesrevision">659e86b1e26ae57a8328e64dd0fab2f57acf58f2</param></service></servicedata>

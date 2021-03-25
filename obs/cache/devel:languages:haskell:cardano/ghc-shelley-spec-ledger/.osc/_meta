@@ -1,0 +1,5 @@
+<package name="ghc-shelley-spec-ledger" project="devel:languages:haskell:cardano">
+  <title/>
+  <description/>
+</package>
+

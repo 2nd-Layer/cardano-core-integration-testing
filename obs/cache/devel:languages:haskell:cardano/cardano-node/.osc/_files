@@ -1,0 +1,8 @@
+<directory name="cardano-node" rev="6" vrev="3" srcmd5="57f9d9a1cd8beb2f5c586ac6cb10d202">
+  <serviceinfo code="succeeded" xsrcmd5="71ff5e9b3457f6ce765bb8882c1a19dc" />
+  <entry name="_service" md5="c2015cfc5612ad7b38917c77bfdf584d" size="612" mtime="1604870979" />
+  <entry name="_servicedata" md5="0d375c0188f5d51e269c4e33e51ea31e" size="249" mtime="1604870979" />
+  <entry name="cardano-node-1.22.1.tar.xz" md5="e884911351ad76ecf28e6349a0ef9bd8" size="77976" mtime="1604870979" />
+  <entry name="cardano-node.changes" md5="665fe98f9f4b527acc12c1e30aec6b7e" size="1534" mtime="1604871516" />
+  <entry name="cardano-node.spec" md5="769f8196355cf6026f2cf63fe158444c" size="4898" mtime="1606668254" />
+</directory>

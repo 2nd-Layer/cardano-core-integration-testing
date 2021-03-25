@@ -1,0 +1,8 @@
+<directory name="ghc-lobemo-backend-editor" rev="2" vrev="2" srcmd5="e8066a8b109da66d3d9e2670d12b274c">
+  <serviceinfo code="succeeded" xsrcmd5="1563e9f1b1c6def5a63c94cc8979b3e7" />
+  <entry name="_service" md5="896bd32ffdfe52ff0afdf6f1cd3042e0" size="645" mtime="1603689314" />
+  <entry name="_servicedata" md5="b09695b721691efde30dccd1452760af" size="262" mtime="1603689315" />
+  <entry name="ghc-lobemo-backend-editor.changes" md5="88c3cd975f93c13d5c70a667068be610" size="153" mtime="1603689315" />
+  <entry name="ghc-lobemo-backend-editor.spec" md5="56db3ae6cb681421dafec1c32a491626" size="2318" mtime="1606668313" />
+  <entry name="lobemo-backend-editor-0.1.0.0.tar.xz" md5="0cab18f6a25c6669814f15e2d2ef3dd1" size="9244" mtime="1603689315" />
+</directory>

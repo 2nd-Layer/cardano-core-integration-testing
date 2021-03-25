@@ -1,0 +1,8 @@
+<package name="ghc-io-sim" project="devel:languages:haskell:cardano">
+  <title>A pure simlator for monadic concurrency with STM</title>
+  <description>A pure simlator for monadic concurrency with STM.
+
+</description>
+  <url>https://github.com/input-output-hk/ouroboros-network/tree/master/io-sim</url>
+</package>
+

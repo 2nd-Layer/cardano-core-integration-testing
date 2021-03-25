@@ -1,0 +1,8 @@
+<package name="ghc-typed-protocols" project="devel:languages:haskell:cardano">
+  <title>A framework for strongly typed protocols</title>
+  <description>A framework for strongly typed protocols.
+
+</description>
+  <url>https://github.com/input-output-hk/ouroboros-network/tree/master/typed-protocols</url>
+</package>
+

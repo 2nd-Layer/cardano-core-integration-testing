@@ -1,0 +1,37 @@
+Index: cardano-wallet-test-utils-2020.12.08/cardano-wallet-test-utils.cabal
+===================================================================
+--- cardano-wallet-test-utils-2020.12.08.orig/cardano-wallet-test-utils.cabal
++++ cardano-wallet-test-utils-2020.12.08/cardano-wallet-test-utils.cabal
+@@ -35,13 +35,13 @@ library
+     , contra-tracer
+     , filepath
+     , file-embed
+-    , generic-lens >=1.1.0.0 && < 1.2.0.0
+     , hspec
+     , hspec-core
+     , hspec-expectations
+     , hspec-golden-aeson
+     , http-api-data
+     , iohk-monitoring
++    , lens
+     , process
+     , QuickCheck
+     , stm
+Index: cardano-wallet-test-utils-2020.12.08/src/Test/Utils/Trace.hs
+===================================================================
+--- cardano-wallet-test-utils-2020.12.08.orig/src/Test/Utils/Trace.hs
++++ cardano-wallet-test-utils-2020.12.08/src/Test/Utils/Trace.hs
+@@ -21,8 +21,11 @@ import Control.Concurrent.STM.TVar
+     ( newTVarIO, readTVarIO )
+ import Control.Tracer
+     ( Tracer )
+-import Data.Generics.Internal.VL.Prism
+-    ( Prism', (^?) )
++import Control.Lens.Prism
++    ( Prism' )
++import Control.Lens.Operators
++    ( (^?) )
++
+ import Data.Maybe
+     ( isJust )
+ 

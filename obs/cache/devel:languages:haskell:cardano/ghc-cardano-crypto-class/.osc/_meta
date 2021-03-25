@@ -1,0 +1,8 @@
+<package name="ghc-cardano-crypto-class" project="devel:languages:haskell:cardano">
+  <title>Type classes abstracting over cryptography primitives for Cardano</title>
+  <description>Type classes abstracting over cryptography primitives for Cardano.
+
+</description>
+  <url>https://github.com/input-output-hk/cardano-base</url>
+</package>
+

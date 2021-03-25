@@ -1,0 +1,8 @@
+<package name="ghc-cardano-crypto-praos" project="devel:languages:haskell:cardano">
+  <title>Crypto primitives from libsodium</title>
+  <description>VRF (and KES, tba) primitives from libsodium.
+
+</description>
+  <url>https://hackage.haskell.org/package/%{pkg_name}</url>
+</package>
+

@@ -1,0 +1,8 @@
+<package name="ghc-cardano-binary" project="devel:languages:haskell:cardano">
+  <title>Binary serialization for Cardano</title>
+  <description>This package includes the binary serialization format for Cardano.
+
+</description>
+  <url>https://github.com/input-output-hk/cardano-base/</url>
+</package>
+

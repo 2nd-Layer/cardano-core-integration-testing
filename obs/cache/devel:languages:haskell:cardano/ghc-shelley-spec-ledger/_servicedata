@@ -1,0 +1,4 @@
+<servicedata>
+<service name="tar_scm">
+                <param name="url">https://github.com/input-output-hk/cardano-ledger-specs.git</param>
+              <param name="changesrevision">bd992c7bbce80c111bee9ccf459aa9eed524660e</param></service></servicedata>

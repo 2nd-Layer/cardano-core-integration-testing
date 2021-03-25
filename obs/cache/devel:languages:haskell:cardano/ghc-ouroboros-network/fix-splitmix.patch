@@ -1,0 +1,43 @@
+Index: ouroboros-network-0.1.0.0/demo/chain-sync.hs
+===================================================================
+--- ouroboros-network-0.1.0.0.orig/demo/chain-sync.hs
++++ ouroboros-network-0.1.0.0/demo/chain-sync.hs
+@@ -34,7 +34,7 @@ import           System.Environment
+ import           System.Exit
+ import           System.IO
+ import           System.Random
+-import           System.Random.SplitMix
++-- import           System.Random.SplitMix
+ 
+ import qualified Codec.Serialise as CBOR
+ 
+@@ -199,7 +199,7 @@ serverChainSync sockAddr = withIOManager
+       $ \_ serverAsync ->
+         wait serverAsync   -- block until async exception
+   where
+-    prng = mkSMGen 0
++    prng = mkStdGen 0
+ 
+     app :: OuroborosApplication ResponderMode addr LBS.ByteString IO Void ()
+     app = demoProtocol2 chainSync
+@@ -427,7 +427,7 @@ serverBlockFetch sockAddr = withIOManage
+       $ \_ serverAsync ->
+         wait serverAsync   -- block until async exception
+   where
+-    prng = mkSMGen 0
++    prng = mkStdGen 0
+ 
+     app :: OuroborosApplication ResponderMode LocalAddress LBS.ByteString IO Void ()
+     app = demoProtocol3 chainSync blockFetch
+Index: ouroboros-network-0.1.0.0/ouroboros-network.cabal
+===================================================================
+--- ouroboros-network-0.1.0.0.orig/ouroboros-network.cabal
++++ ouroboros-network-0.1.0.0/ouroboros-network.cabal
+@@ -368,7 +368,6 @@ executable demo-chain-sync
+                        network,
+                        random,
+                        serialise,
+-                       splitmix < 0.1,
+                        stm,
+ 
+                        QuickCheck,

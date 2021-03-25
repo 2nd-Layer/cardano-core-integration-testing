@@ -1,0 +1,8 @@
+<directory name="ghc-cardano-wallet-core-integration" rev="2" vrev="2" srcmd5="0524dc91cce58ee6189a5aeab391faad">
+  <serviceinfo code="succeeded" xsrcmd5="16b699dc0ecbe77142eb2f74bb9c3807" />
+  <entry name="_service" md5="40040007a47d86d28ab83f729119bad3" size="650" mtime="1604892975" />
+  <entry name="_servicedata" md5="120a18b6a7bf05c1be5420a9728748c6" size="251" mtime="1604892976" />
+  <entry name="cardano-wallet-core-integration-2020.11.03.tar.xz" md5="56af5fbd37e39b7d2daf15f77f9b8e50" size="96024" mtime="1604892976" />
+  <entry name="ghc-cardano-wallet-core-integration.changes" md5="37982487e9debf3efea3492f1a0eaa13" size="153" mtime="1604892976" />
+  <entry name="ghc-cardano-wallet-core-integration.spec" md5="0f978abc9c56acaf2d5d7b9cd01d4504" size="3559" mtime="1606668290" />
+</directory>

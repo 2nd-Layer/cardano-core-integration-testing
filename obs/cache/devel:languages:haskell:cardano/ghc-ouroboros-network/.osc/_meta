@@ -1,0 +1,8 @@
+<package name="ghc-ouroboros-network" project="devel:languages:haskell:cardano">
+  <title>A networking layer for the Ouroboros blockchain protocol</title>
+  <description>A networking layer for the Ouroboros blockchain protocol.
+
+</description>
+  <url>https://github.com/input-output-hk/ouroboros-network/tree/master/ouroboros-network</url>
+</package>
+

@@ -1,0 +1,8 @@
+<package name="ghc-ouroboros-consensus" project="devel:languages:haskell:cardano">
+  <title>Consensus layer for the Ouroboros blockchain protocol</title>
+  <description>Consensus layer for the Ouroboros blockchain protocol.
+
+</description>
+  <url>https://github.com/input-output-hk/ouroboros-network/tree/master/ouroboros-consensus</url>
+</package>
+

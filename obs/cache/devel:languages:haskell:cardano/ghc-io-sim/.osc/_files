@@ -1,0 +1,8 @@
+<directory name="ghc-io-sim" rev="4" vrev="4" srcmd5="b6f82ce73926c71b3b3459b5d56093af">
+  <serviceinfo code="succeeded" xsrcmd5="c3d20e9eb3cf0008a3f59eb9e30bf126" />
+  <entry name="_service" md5="faf8e64f31c29117e55014e1bef74767" size="606" mtime="1604096389" />
+  <entry name="_servicedata" md5="ca4eba5d00c15a0ca195d5d6924c974a" size="254" mtime="1606674296" />
+  <entry name="ghc-io-sim.changes" md5="fecc87ee0523ba12f44b2ecd81c74c1c" size="440" mtime="1606674296" />
+  <entry name="ghc-io-sim.spec" md5="0cdf3785704f7c717946f0fc3571d2f7" size="2196" mtime="1607668483" />
+  <entry name="io-sim-0.2.0.0.tar.xz" md5="9c577857ba05e4c49fa715a02a3c4fa1" size="29776" mtime="1606674296" />
+</directory>

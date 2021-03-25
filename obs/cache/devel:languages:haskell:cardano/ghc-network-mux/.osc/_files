@@ -1,0 +1,8 @@
+<directory name="ghc-network-mux" rev="6" vrev="6" srcmd5="40d6b1f3ecded5d8c814bb8f61c7385f">
+  <serviceinfo code="succeeded" xsrcmd5="0ab195bdb3fe6433169d13213e3fe053" />
+  <entry name="_service" md5="7f884b049afedee2748605a903f2e0b8" size="616" mtime="1604101720" />
+  <entry name="_servicedata" md5="2a61fef23951d15137fddfd71f2b81c7" size="254" mtime="1607692115" />
+  <entry name="ghc-network-mux.changes" md5="335f5e867b4b0715c423041f1ad9f29c" size="943" mtime="1607692115" />
+  <entry name="ghc-network-mux.spec" md5="600137b8e4e038157c5989bd66b0c906" size="2827" mtime="1607454552" />
+  <entry name="network-mux-0.1.0.0.tar.xz" md5="7a8bb0fe21e56ee0d1e5417325678cdb" size="50540" mtime="1607692115" />
+</directory>

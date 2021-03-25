@@ -1,0 +1,30 @@
+-------------------------------------------------------------------
+Fri Dec 11 12:01:39 UTC 2020 - mimi.vx@gmail.com
+
+- Update to version 0.1.0.0:
+  * Support for getting peers from ledger (disabled)
+  * Introduce RelayAddress
+  * LedgerSupportsPeerSelection: return peers registered in ledger state
+  * Remove obsolete BlockMeasure instances
+  * Introduce AnchoredSeq
+  * network-mux: filling completionVar should never block
+  * Remove ChainFragment
+  * Extra logging
+  * Rudimentary diffusion logging
+
+-------------------------------------------------------------------
+Sun Nov 29 18:12:33 UTC 2020 - mimi.vx@gmail.com
+
+- Update to version 0.1.0.0:
+  * Renamed network test components
+  * snocket: introduce LocalSocket & FileDescriptor
+  * MonadTimer: export DiffTime
+  * Upgrade to network-3.1.2.0
+  * Throw 'ErrorCall's and 'FatalError's.
+  * network: parameterize DiffusionApplications record
+  * Enable network versions for Allegra and Mary
+
+-------------------------------------------------------------------
+Sat Nov  7 20:33:57 UTC 2020 - Mark Stopka <mstopka@opensuse.org>
+
+- Initial package

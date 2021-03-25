@@ -1,0 +1,8 @@
+<directory name="ghc-ouroboros-consensus-cardano" rev="3" vrev="3" srcmd5="4c0959b55f063bb4616f4099ecf2aa59">
+  <serviceinfo code="succeeded" xsrcmd5="f257ff97f25d7e9501275f7b770f3083" />
+  <entry name="_service" md5="5cde7359e4d332c3438bd2ca8847d314" size="648" mtime="1604108760" />
+  <entry name="_servicedata" md5="396a6f13819d5dfd059e7b881da67905" size="254" mtime="1606674317" />
+  <entry name="ghc-ouroboros-consensus-cardano.changes" md5="b4b95e66a06e262a2a4812ff7be16946" size="1071" mtime="1606674317" />
+  <entry name="ghc-ouroboros-consensus-cardano.spec" md5="815379417c20f0fca10dbbe414c1e696" size="2936" mtime="1606668338" />
+  <entry name="ouroboros-consensus-cardano-0.1.0.0.tar.xz" md5="77830ca600f5cb237527324ad3dfe703" size="26704" mtime="1606674317" />
+</directory>

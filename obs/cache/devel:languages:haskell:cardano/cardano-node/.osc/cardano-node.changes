@@ -1,0 +1,41 @@
+-------------------------------------------------------------------
+Sun Nov  8 21:38:14 UTC 2020 - Mark Stopka <mstopka@opensuse.org>
+
+- remove chairman binary
+
+-------------------------------------------------------------------
+Sun Nov 08 21:29:18 UTC 2020 - mimi.vx@gmail.com
+
+- Update to version 1.22.1:
+  * Bump version to 1.22.1 and update change logs
+  * Update: fix ValueNotConservedUTxO serialization
+  * Delete old chairman Haskell code
+
+-------------------------------------------------------------------
+Fri Oct 30 08:05:41 UTC 2020 - mstopka@opensuse.org
+
+- Update to version 1.22.0:
+  * Bump versions to 1.22.0 and update change logs
+  * Update dependency on ledger and consensus
+  * Update dependencies
+  * Move warnings from cabal.project to the .cabal files
+  * Remove pattern match redundant according to GHC 8.10
+  * Remove redundant imports
+  * Bump ouroboros-network dependency
+  * Delete files that should have been deleted in #1977
+  * Fix 'resource exhausted' test failure
+  * Ever desapearing network config logs...
+  * Fix default ipv4 & ipv6 address logic
+  * CAD-1884: remove LiveView completely.
+  * CAD-1884: remove LiveView.
+  * Add the upcoming Allegra and Mary eras to CardanoBlock
+
+-------------------------------------------------------------------
+Wed Oct 28 09:30:24 UTC 2020 - Mark Stopka <mstopka@opensuse.org>
+
+- Update package descriptions
+
+-------------------------------------------------------------------
+Wed Oct 28 09:28:48 UTC 2020 - Mark Stopka <mstopka@opensuse.org>
+
+- Initial package

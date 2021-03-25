@@ -1,0 +1,4 @@
+<servicedata>
+<service name="tar_scm">
+                <param name="url">https://github.com/input-output-hk/cardano-rt-view.git</param>
+              <param name="changesrevision">e1aa659609620460bb948435276704a42f30de45</param></service></servicedata>

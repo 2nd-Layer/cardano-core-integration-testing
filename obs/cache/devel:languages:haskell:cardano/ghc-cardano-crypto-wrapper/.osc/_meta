@@ -1,0 +1,8 @@
+<package name="ghc-cardano-crypto-wrapper" project="devel:languages:haskell:cardano">
+  <title>Cryptographic primitives used in the Cardano project</title>
+  <description>Cryptographic primitives used in the Cardano project.
+
+</description>
+  <url>https://github.com/input-output-hk/cardano-ledger-specs/tree/master/byron/crypto</url>
+</package>
+

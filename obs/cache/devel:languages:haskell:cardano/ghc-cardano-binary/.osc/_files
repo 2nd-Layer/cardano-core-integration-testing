@@ -1,0 +1,10 @@
+<directory name="ghc-cardano-binary" rev="5" vrev="5" srcmd5="9f07752fb4f592998dc697bf3dbdfad0">
+  <serviceinfo code="succeeded" xsrcmd5="5342b67b529635475044a53074139d7b" />
+  <entry name="67246568db5ef45ffd2e25af08e2cb2e00ec220c.patch" md5="2533f414b92db0ae38e386dbb9d7a25a" size="1302" mtime="1603426597" />
+  <entry name="_service" md5="8ba063f5c64a5c60c90e6b8cc7562422" size="607" mtime="1607677972" />
+  <entry name="_servicedata" md5="44b8e544041bfd3d1eeb53f565b427a9" size="466" mtime="1607677972" />
+  <entry name="cardano-binary-1.5.0.tar.xz" md5="ecc72420bdc097afd7e56aae9d03444b" size="24832" mtime="1607677973" />
+  <entry name="fix-cabal-recursion-schemes-dependency.patch" md5="b333c769e34d78b3dbaded09ef9a9983" size="696" mtime="1603426597" />
+  <entry name="ghc-cardano-binary.changes" md5="a858b4d9b26afcd6d8e21f24a7eb2f96" size="1165" mtime="1607677973" />
+  <entry name="ghc-cardano-binary.spec" md5="ed917586357968daf406729ffa47c380" size="2756" mtime="1607677973" />
+</directory>

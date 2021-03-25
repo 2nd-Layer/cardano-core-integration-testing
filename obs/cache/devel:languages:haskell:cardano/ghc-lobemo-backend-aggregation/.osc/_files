@@ -1,0 +1,8 @@
+<directory name="ghc-lobemo-backend-aggregation" rev="3" vrev="3" srcmd5="965bfa5a2dedf9bdb48a33f37bf4f73a">
+  <serviceinfo code="succeeded" xsrcmd5="1ca623a651074cfbcae72c802948343f" />
+  <entry name="_service" md5="dea49afbda75e5288c5240e490abdd5d" size="655" mtime="1603689588" />
+  <entry name="_servicedata" md5="08f7e9052f9938ffb8924ae543ad8186" size="262" mtime="1603689588" />
+  <entry name="ghc-lobemo-backend-aggregation.changes" md5="3a1ca9b46b29d0a226f3a514a42b7ea6" size="153" mtime="1603689589" />
+  <entry name="ghc-lobemo-backend-aggregation.spec" md5="7f36b2aad98674df97af633099af88b5" size="2155" mtime="1606668311" />
+  <entry name="lobemo-backend-aggregation-0.1.0.0.tar.xz" md5="fca32f447f720d6a716c073ad8e20cf5" size="7380" mtime="1603689589" />
+</directory>

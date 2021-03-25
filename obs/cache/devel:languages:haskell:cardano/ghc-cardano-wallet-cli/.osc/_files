@@ -1,0 +1,8 @@
+<directory name="ghc-cardano-wallet-cli" rev="2" vrev="2" srcmd5="7623729ac15bba04759acd308eb03e08">
+  <serviceinfo code="succeeded" xsrcmd5="5f3d300e2e1b9d008df6fb74b68b9e45" />
+  <entry name="_service" md5="cc754cc71e2158d1d7e1b39575636e82" size="624" mtime="1604881829" />
+  <entry name="_servicedata" md5="120a18b6a7bf05c1be5420a9728748c6" size="251" mtime="1604881829" />
+  <entry name="cardano-wallet-cli-2020.11.03.tar.xz" md5="29dcae3f64defa814bfa06c80f26ac28" size="18472" mtime="1604881830" />
+  <entry name="ghc-cardano-wallet-cli.changes" md5="59caf5e0591c716441e353a1404bcfa4" size="153" mtime="1604881830" />
+  <entry name="ghc-cardano-wallet-cli.spec" md5="b8a35dde2f60fb4b6efff9b56c35119f" size="2675" mtime="1606668286" />
+</directory>

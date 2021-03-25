@@ -1,0 +1,8 @@
+<package name="ghc-tracer-transformers" project="devel:languages:haskell:cardano">
+  <title>Tracer transformers and examples showing their use</title>
+  <description>Tracer transformers and examples showing their use.
+
+</description>
+  <url>https://github.com/input-output-hk/iohk-monitoring-framework</url>
+</package>
+

@@ -1,0 +1,8 @@
+<directory name="cardano-wallet" rev="3" vrev="2" srcmd5="1906185a3804104646bc54d32d5892d2">
+  <serviceinfo code="succeeded" xsrcmd5="7f9f80fdd5f5d35a1fe014b5b11c80a7" />
+  <entry name="_service" md5="22810d3031da919c76d4741c7a92b3d5" size="624" mtime="1606493506" />
+  <entry name="_servicedata" md5="5d5b9c009761a53ccfab9cdf0b912342" size="251" mtime="1606493507" />
+  <entry name="cardano-wallet-2020.11.26.tar.xz" md5="759baf0b39057c6677a29a0090a44143" size="242576" mtime="1606493507" />
+  <entry name="cardano-wallet.changes" md5="39b420c96c0e889e42d964159059cca9" size="2358" mtime="1606493507" />
+  <entry name="cardano-wallet.spec" md5="b709890a82befae42508848f03d22c50" size="4569" mtime="1606668258" />
+</directory>

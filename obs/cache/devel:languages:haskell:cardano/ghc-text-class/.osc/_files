@@ -1,0 +1,8 @@
+<directory name="ghc-text-class" rev="4" vrev="1" srcmd5="6066822e578d346bc451b16309b989ec">
+  <serviceinfo code="succeeded" xsrcmd5="918319ce8323508a7e84b781d3e4c114" />
+  <entry name="_service" md5="0e2dbb87aeac3d697bd266a698c1b254" size="622" mtime="1607715732" />
+  <entry name="_servicedata" md5="4578990bb9cfff84840f30438f43ae26" size="251" mtime="1607713845" />
+  <entry name="ghc-text-class.changes" md5="5a4fc35341b52ca9060594d6cf9bee20" size="527" mtime="1607715732" />
+  <entry name="ghc-text-class.spec" md5="5003cb848e5027eefe6cb01334e5b518" size="2114" mtime="1607715733" />
+  <entry name="text-class-2020.12.8.tar.xz" md5="904a3e0586db82c985ec32359cadf6c6" size="5012" mtime="1607715733" />
+</directory>

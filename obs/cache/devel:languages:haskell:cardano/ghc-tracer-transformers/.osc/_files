@@ -1,0 +1,8 @@
+<directory name="ghc-tracer-transformers" rev="2" vrev="2" srcmd5="598436a4ee9942194f01b81a49f46d09">
+  <serviceinfo code="succeeded" xsrcmd5="a961364f1056b847d036f9da49e98a2a" />
+  <entry name="_service" md5="e75fc05d2346ee168eb244bfc217250f" size="640" mtime="1603888417" />
+  <entry name="_servicedata" md5="3aed183e316cf195ebc792839f9a6bb6" size="262" mtime="1603888417" />
+  <entry name="ghc-tracer-transformers.changes" md5="60e1a717fd8f559a11ba0dec4379f7e0" size="153" mtime="1603888418" />
+  <entry name="ghc-tracer-transformers.spec" md5="9f9567a02b2b4ee8d897074d542e6467" size="2072" mtime="1606668360" />
+  <entry name="tracer-transformers-0.1.0.1.tar.xz" md5="c79a2127f9b9b6019cd815df2646e2ee" size="8832" mtime="1603888418" />
+</directory>

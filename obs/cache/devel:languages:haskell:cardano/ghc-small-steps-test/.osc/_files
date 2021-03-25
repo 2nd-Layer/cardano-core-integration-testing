@@ -1,0 +1,8 @@
+<directory name="ghc-small-steps-test" rev="4" vrev="4" srcmd5="3ae90d3b13925f6fb53c18d0fac3e7b6">
+  <serviceinfo code="succeeded" xsrcmd5="524e5def37a277409fdbd994c9625f16" />
+  <entry name="_service" md5="2dd35312cf529bb919720a64af19746d" size="639" mtime="1604089173" />
+  <entry name="_servicedata" md5="041732107147e6166b9d0f13fbaf9189" size="257" mtime="1607510132" />
+  <entry name="ghc-small-steps-test.changes" md5="2e3df8c9cbf5b868712c761b9cb156ba" size="513" mtime="1607510132" />
+  <entry name="ghc-small-steps-test.spec" md5="8257dd5389bf90d753c4cfa585853c24" size="2757" mtime="1607510132" />
+  <entry name="small-steps-test-0.1.0.0.tar.xz" md5="826976f8389e7f40507819efcf5752f2" size="17000" mtime="1607510133" />
+</directory>

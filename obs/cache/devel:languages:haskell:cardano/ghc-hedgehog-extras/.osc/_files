@@ -1,0 +1,8 @@
+<directory name="ghc-hedgehog-extras" rev="2" vrev="2" srcmd5="d81600153bd2be7a9861b8f281f838e0">
+  <serviceinfo code="succeeded" xsrcmd5="b9a5b5025521c3106761cbaf9dbf3f08" />
+  <entry name="_service" md5="e5ced706e426530aa08613b6fb3594f6" size="619" mtime="1604865837" />
+  <entry name="_servicedata" md5="f326731919f20c51836f770b9165bb72" size="249" mtime="1604865837" />
+  <entry name="ghc-hedgehog-extras.changes" md5="06b94bd4e61768cdb6d74c07226ea813" size="153" mtime="1604865837" />
+  <entry name="ghc-hedgehog-extras.spec" md5="2d3d4d10ad7db4650837729fd34df78b" size="2488" mtime="1606668303" />
+  <entry name="hedgehog-extras-0.1.0.0.tar.xz" md5="597b3600d1ff04a4e562149191d7be3b" size="14412" mtime="1604865838" />
+</directory>

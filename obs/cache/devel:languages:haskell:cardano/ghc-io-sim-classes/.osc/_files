@@ -1,0 +1,8 @@
+<directory name="ghc-io-sim-classes" rev="4" vrev="4" srcmd5="17894d04d07efd10006651c89a76ea17">
+  <serviceinfo code="succeeded" xsrcmd5="301518184555f1d4c6a42caf824c4009" />
+  <entry name="_service" md5="9a97a1d43204f1d741a0f8481436798b" size="622" mtime="1604096743" />
+  <entry name="_servicedata" md5="ca4eba5d00c15a0ca195d5d6924c974a" size="254" mtime="1606674298" />
+  <entry name="ghc-io-sim-classes.changes" md5="2385ae0de8b13e8d3328814395cb2ad9" size="435" mtime="1606674298" />
+  <entry name="ghc-io-sim-classes.spec" md5="0abed127f381a28bfa209f1dc0fa123f" size="2174" mtime="1606668306" />
+  <entry name="io-sim-classes-0.2.0.0.tar.xz" md5="c8bdb1338c181944a1ca41fc4467b535" size="20876" mtime="1606674298" />
+</directory>

@@ -1,0 +1,9 @@
+<directory name="ghc-ouroboros-network" rev="6" vrev="6" srcmd5="d9bb24ed213df6b5843e6171f408f23f">
+  <serviceinfo code="succeeded" xsrcmd5="9e1502d9c503ec4c3a48a52a1502099a" />
+  <entry name="_service" md5="8729c9bf04deef8694413003e4a32303" size="628" mtime="1604781266" />
+  <entry name="_servicedata" md5="407220bdd504bd6356b430b348545f4d" size="254" mtime="1607688113" />
+  <entry name="fix-splitmix.patch" md5="8cd7289b98ea5d2311072919133ef7bc" size="1641" mtime="1604798103" />
+  <entry name="ghc-ouroboros-network.changes" md5="2170070337b75276f1d57ea6631e1705" size="1103" mtime="1607688113" />
+  <entry name="ghc-ouroboros-network.spec" md5="445ad63a7723d502311acac01e700a9c" size="3556" mtime="1606668342" />
+  <entry name="ouroboros-network-0.1.0.0.tar.xz" md5="6c621e9148da36c12ecfad05033cef4b" size="206172" mtime="1607688113" />
+</directory>

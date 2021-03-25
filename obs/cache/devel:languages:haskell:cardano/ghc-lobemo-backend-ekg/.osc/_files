@@ -1,0 +1,8 @@
+<directory name="ghc-lobemo-backend-ekg" rev="2" vrev="2" srcmd5="952f24ae055408b9ff2f5072f641dc86">
+  <serviceinfo code="succeeded" xsrcmd5="ad3aea5e9a4385dfc8d9b7e2cf47c220" />
+  <entry name="_service" md5="8c244f6187ed92aa6ec38c72c8fd720d" size="639" mtime="1603689024" />
+  <entry name="_servicedata" md5="fadb920ef62cc5ce73bcbb9a7f21a8bf" size="262" mtime="1603689024" />
+  <entry name="ghc-lobemo-backend-ekg.changes" md5="da0ad72e9049dd1e12202dd4dbeb1f6c" size="153" mtime="1603689024" />
+  <entry name="ghc-lobemo-backend-ekg.spec" md5="9138dd1234f57bc06242f084ab02d593" size="2245" mtime="1606668315" />
+  <entry name="lobemo-backend-ekg-0.1.0.1.tar.xz" md5="d633fa169c5153b9652effc469dbcc48" size="10220" mtime="1603689025" />
+</directory>

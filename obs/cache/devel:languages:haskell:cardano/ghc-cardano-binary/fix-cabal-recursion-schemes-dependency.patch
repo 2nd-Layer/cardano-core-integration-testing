@@ -1,0 +1,18 @@
+diff --git a/binary/cardano-binary.cabal b/binary/cardano-binary.cabal
+index 2f42ffc..e6609dd 100644
+--- a/binary/cardano-binary.cabal
++++ b/binary/cardano-binary.cabal
+@@ -41,11 +41,12 @@ library
+                      , cardano-prelude
+                      , cborg              >= 0.2.2 && < 0.3
+                      , containers
++		     , data-fix
+                      , digest
+                      , formatting
+                      , nothunks
+                      , primitive
+-                     , recursion-schemes  >= 5.1   && < 5.2
++                     , recursion-schemes  >= 5.2
+                      , safe-exceptions
+                      , tagged
+                      , text

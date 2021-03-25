@@ -1,0 +1,8 @@
+<directory name="ghc-lobemo-backend-graylog" rev="2" vrev="2" srcmd5="52d11649d82de0cf0a643704a2479b85">
+  <serviceinfo code="succeeded" xsrcmd5="4f39fbaff8061e49d7cc74c20e740e43" />
+  <entry name="_service" md5="15bf79705c61dcf35aee5710b4bdf5a1" size="647" mtime="1603688741" />
+  <entry name="_servicedata" md5="b09695b721691efde30dccd1452760af" size="262" mtime="1603688741" />
+  <entry name="ghc-lobemo-backend-graylog.changes" md5="7c16437794027d4a2ec53ec94c99f366" size="153" mtime="1603688741" />
+  <entry name="ghc-lobemo-backend-graylog.spec" md5="4dcb00d76fb75040139f33304c194971" size="2109" mtime="1606668317" />
+  <entry name="lobemo-backend-graylog-0.1.0.0.tar.xz" md5="8b067d52afde72f61bcf5e3b4d3f4f06" size="7604" mtime="1603688742" />
+</directory>

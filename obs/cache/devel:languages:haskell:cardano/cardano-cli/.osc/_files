@@ -1,0 +1,8 @@
+<directory name="cardano-cli" rev="2" vrev="2" srcmd5="36b02e304a012ea49d487c361b6143bd">
+  <serviceinfo code="succeeded" xsrcmd5="37fa75e26e60e8a1647491e05dd8ef99" />
+  <entry name="_service" md5="814117ae5ccd93e80ce96d6f751407f0" size="610" mtime="1604044098" />
+  <entry name="_servicedata" md5="2be3d85bf0f22f033d0c56883fd6089a" size="249" mtime="1604044098" />
+  <entry name="cardano-cli-1.22.0.tar.xz" md5="696db9c3f7e4075cf653e4894aafdf61" size="87152" mtime="1604044098" />
+  <entry name="cardano-cli.changes" md5="63336567ba58014cdbc46e90b1eadbe9" size="154" mtime="1604044099" />
+  <entry name="cardano-cli.spec" md5="ddfb5023f2eeb408b4b4a5bceca21cd6" size="4497" mtime="1606668252" />
+</directory>

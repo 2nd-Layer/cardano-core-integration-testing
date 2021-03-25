@@ -1,0 +1,8 @@
+<package name="ghc-contra-tracer" project="devel:languages:haskell:cardano">
+  <title>A simple interface for logging, tracing or monitoring</title>
+  <description>A simple interface for logging, tracing or monitoring.
+
+</description>
+  <url>https://github.com/input-output-hk/iohk-monitoring-framework/</url>
+</package>
+

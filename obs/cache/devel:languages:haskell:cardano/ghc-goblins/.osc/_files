@@ -1,0 +1,8 @@
+<directory name="ghc-goblins" rev="2" vrev="2" srcmd5="4e0248bfa90cdeee6bddfac7daedd838">
+  <serviceinfo code="succeeded" xsrcmd5="3bf4df4079a1aeec14a1696ea0258e54" />
+  <entry name="_service" md5="51bcf46cd4d80eda06fc360b21151c56" size="557" mtime="1604080831" />
+  <entry name="_servicedata" md5="7c7f8be0abfc3205307e3ecff644ff47" size="244" mtime="1604080832" />
+  <entry name="ghc-goblins.changes" md5="9d9096a7ce26f1606b109d23431c4931" size="153" mtime="1604080832" />
+  <entry name="ghc-goblins.spec" md5="ff2f4e6125fdb5dd29fbebfa0fee6389" size="2485" mtime="1606668301" />
+  <entry name="goblins-0.2.0.0.tar.xz" md5="ce67d4e7b61a549d84d9ea1f3cd5e576" size="11424" mtime="1604080832" />
+</directory>

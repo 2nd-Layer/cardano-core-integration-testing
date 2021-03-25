@@ -1,0 +1,8 @@
+<directory name="ghc-contra-tracer" rev="2" vrev="2" srcmd5="6035a9dc4ad873988293b147f5edea89">
+  <serviceinfo code="succeeded" xsrcmd5="d1bde3545588fcb9f2847f2efcbd6839" />
+  <entry name="_service" md5="baa3d09a1b6638d13403f1958acca28f" size="628" mtime="1603887676" />
+  <entry name="_servicedata" md5="55292603524493ce8903af27901d85cc" size="262" mtime="1603887676" />
+  <entry name="contra-tracer-0.1.0.0.tar.xz" md5="b67035d90062daca7fe94e1088c490fc" size="7860" mtime="1603887676" />
+  <entry name="ghc-contra-tracer.changes" md5="9340e7ebbf6546cab8017503a408e25e" size="153" mtime="1603887676" />
+  <entry name="ghc-contra-tracer.spec" md5="253f0c0a0e52d8c9c1a989f70fb33874" size="1798" mtime="1606668298" />
+</directory>
