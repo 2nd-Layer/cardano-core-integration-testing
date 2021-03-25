@@ -32,3 +32,14 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           message: 'chore: Fetch OBS cache'
           directory: 'obs/cache/'
+  docker-check:
+    runs-on: ubuntu-latest
+    name: Check cardano-node Docker images version on Docker Hub
+    strategy:
+      matrix:
+        docker_base_image  [centos, osleap, ostw]
+    steps:
+      - name: Chech tag centos-cardano-node version from Docker Hub
+        run: scripts/docker-hub-check.sh
+        with:
+          docker_base_image: ${{ matrix.docker_base_image }}
