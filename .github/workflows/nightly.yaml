@@ -39,6 +39,11 @@ jobs:
       matrix:
         docker_base_image: [centos, osleap, ostw]
     steps:
+      - name: Checkout Git repository
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+          fetch-depth: 0
       - name: Chech tag centos-cardano-node version from Docker Hub
         run: scripts/docker-hub-check.sh
         env:
