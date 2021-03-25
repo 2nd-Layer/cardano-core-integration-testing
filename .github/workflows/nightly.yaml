@@ -41,5 +41,5 @@ jobs:
     steps:
       - name: Chech tag centos-cardano-node version from Docker Hub
         run: scripts/docker-hub-check.sh
-        with:
-          docker_base_image: ${{ matrix.docker_base_image }}
+        env:
+          DOCKER_BASE_IMAGE: ${{ matrix.docker_base_image }}
