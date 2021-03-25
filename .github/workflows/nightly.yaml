@@ -38,6 +38,7 @@ jobs:
     strategy:
       matrix:
         docker_base_image: [centos, osleap, ostw]
+        docker_application: [ cardano-node, cardano-cli, cardano-rt-view]
     steps:
       - name: Checkout Git repository
         uses: actions/checkout@v2
@@ -48,3 +49,4 @@ jobs:
         run: scripts/docker-hub-check.sh
         env:
           DOCKER_BASE_IMAGE: ${{ matrix.docker_base_image }}
+          DOCKER_APPLICATION: ${{ matrix.docker_application }}
