@@ -18,5 +18,6 @@ DOCKER_HUB_IMAGE_VER=$(curl -L --fail --silent \
 if [ ! -z ${DOCKER_HUB_IMAGE_VER} ]; then
     echo "Found Docker image: ${DOCKER_IMAGE_NAME}:${DOCKER_HUB_IMAGE_VER}"
 else
+    echo "Failed to retrieve DOCKER_HUB_IMAGE_VER!"
     exit 1
 fi
