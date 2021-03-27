@@ -20,10 +20,7 @@ if [ ! -f ~/.oscrc ]; then
   echo 'pass='${PERLUR_OBS_AUTOMATION_PASS} >> ~/.oscrc
 fi
 
-OBS_PRJ_STABLE=$(jq -r '.stable' < obs/config/projects.json)
-OBS_PRJ_NIGHTLY=$(jq -r '.nightly' < obs/config/projects.json)
-
-pushd obs/cache/
+pushd ${GIT_ROOT}/obs/cache/
 
 if [ -d ${OBS_PRJ_STABLE} ]; then
   pushd ${OBS_PRJ_STABLE}
