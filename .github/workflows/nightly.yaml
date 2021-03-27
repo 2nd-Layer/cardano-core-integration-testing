@@ -44,7 +44,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           fetch-depth: 0
-      - name: Chech tag centos-cardano-node version from Docker Hub
+      - name: Chech tag ${{ matrix.docker_base_image }}-${{ matrix.docker_application }} version from Docker Hub
         run: scripts/docker-hub-check.sh
         env:
           DOCKER_BASE_IMAGE: ${{ matrix.docker_base_image }}
