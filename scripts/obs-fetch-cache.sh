@@ -2,6 +2,8 @@
 
 set -e
 
+source scripts/obs-core-functions.sh
+
 if ! which osc >/dev/null 2>&1; then
   echo "osc is not installed!"
   exit 2
@@ -20,20 +22,6 @@ fi
 
 OBS_PRJ_STABLE=$(jq -r '.stable' < obs/config/projects.json)
 OBS_PRJ_NIGHTLY=$(jq -r '.nightly' < obs/config/projects.json)
-
-function clean_dirty_project() {
-  for dir in $(ls); do
-    if [ ! -f ${dir}/*.spec ]; then
-      rm -rf ${dir}
-    fi
-  done
-}
-
-function osc_repair_wc() {
-for dir in `ls`; do
-  osc repairwc ${dir}
-done
-}
 
 pushd obs/cache/
 
