@@ -37,8 +37,8 @@ jobs:
     name: Check Cardano Docker images versions on Docker Hub
     strategy:
       matrix:
-        docker_base_image: [centos]
-        docker_application: [ cardano-node, cardano-rt-view]
+        docker_base_image: [ centos ]
+        docker_application: [ cardano-node, cardano-rt-view ]
     steps:
       - name: Checkout Git repository
         uses: actions/checkout@v2
