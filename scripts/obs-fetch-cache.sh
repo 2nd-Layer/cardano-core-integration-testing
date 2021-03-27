@@ -29,11 +29,18 @@ function clean_dirty_project() {
   done
 }
 
+function osc_repair_wc() {
+for dir in `ls`; do
+  osc repairwc ${dir}
+done
+}
+
 pushd obs/cache/
 
 if [ -d ${OBS_PRJ_STABLE} ]; then
   pushd ${OBS_PRJ_STABLE}
   clean_dirty_project
+  osc_repair_wc
   osc up
   popd
 else
@@ -43,6 +50,7 @@ fi
 if [ -d ${OBS_PRJ_NIGHTLY} ]; then
   pushd ${OBS_PRJ_NIGHTLY}
   clean_dirty_project
+  osc_repair_wc
   osc up
   popd
 else
