@@ -38,7 +38,7 @@ jobs:
     strategy:
       matrix:
         docker_base_image: [ centos ]
-        docker_application: [ cardano-node, cardano-rt-view ]
+        docker_application: [ cardano-node ]
     steps:
       - name: Checkout Git repository
         uses: actions/checkout@v2
