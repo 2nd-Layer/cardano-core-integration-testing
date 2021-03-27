@@ -1,0 +1,8 @@
+<directory name="ghc-cardano-ledger" rev="9" vrev="9" srcmd5="36c73c2700a75b4d4835eb65d85ffd67">
+  <serviceinfo code="succeeded" xsrcmd5="b85a5a123657dfb85a01ac9f35df3563" />
+  <entry name="_service" md5="a4bdf6f860ef6b0f87a6dd3614683b07" size="628" mtime="1604110733" />
+  <entry name="_servicedata" md5="405d9bf7f89fbab68ed1d7a6363f16cd" size="257" mtime="1607510005" />
+  <entry name="cardano-ledger-0.1.0.0.tar.xz" md5="5c27e685f2cfb603d2492e7cb7e28b66" size="684948" mtime="1607510006" />
+  <entry name="ghc-cardano-ledger.changes" md5="cd50e8b23ce2b8ad37daf72f9550e510" size="1053" mtime="1607510006" />
+  <entry name="ghc-cardano-ledger.spec" md5="cb535d2db58c49465c11bd7c2c7a6c96" size="3506" mtime="1607510006" />
+</directory>

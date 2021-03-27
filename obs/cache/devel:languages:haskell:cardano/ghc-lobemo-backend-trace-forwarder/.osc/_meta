@@ -1,0 +1,8 @@
+<package name="ghc-lobemo-backend-trace-forwarder" project="devel:languages:haskell:cardano">
+  <title>This backend forwards log items to a trace acceptor</title>
+  <description>This backend forwards log items to a trace acceptor.
+
+</description>
+  <url>https://github.com/input-output-hk/iohk-monitoring-framework/</url>
+</package>
+

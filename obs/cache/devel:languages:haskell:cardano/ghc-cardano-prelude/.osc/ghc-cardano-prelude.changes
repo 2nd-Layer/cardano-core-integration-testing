@@ -1,0 +1,26 @@
+-------------------------------------------------------------------
+Thu Dec 10 17:29:53 UTC 2020 - mstopka@opensuse.org
+
+- Update to version 0.1.0.0:
+  * StrictFingerTree: add unsafeFmap
+  * StrictFingerTree: add (un)wrappers
+  * StrictSeq: rename (un)wrappers to fromStrict/forceToStrict
+  * Remove temporary base16 compatibility shim
+  * Remove base16-bytestring version compatibility code and add lower bound to base16-bytestring
+  * Add some zips and unzips to StrictSeq.
+  * Move rts.h to top of file as per advice in https://gitlab.haskell.org/ghc/ghc/-/issues/18946
+  * Drop upper bound on base16-bytestring
+  * Copy code from base16-bytestring, Data.ByteString.Base16 to facilitate migration from base16-bytestring-0.1.1.7 to base16-bytestring-1.0.0.0
+
+-------------------------------------------------------------------
+Sun Nov 29 18:07:15 UTC 2020 - mimi.vx@gmail.com
+
+- Update to version 0.1.0.0:
+  * Add some zips and unzips to StrictSeq.
+  * Move rts.h to top of file as per advice in https://gitlab.haskell.org/ghc/ghc/-/issues/18946
+  * Drop upper bound on base16-bytestring
+
+-------------------------------------------------------------------
+Fri Oct 16 10:09:39 UTC 2020 - Ondřej Súkup <mimi.vx@gmail.com>
+
+- initial commit 

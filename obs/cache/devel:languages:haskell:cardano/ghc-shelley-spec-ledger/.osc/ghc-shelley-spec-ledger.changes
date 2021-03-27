@@ -1,0 +1,44 @@
+-------------------------------------------------------------------
+Thu Dec 10 20:42:44 UTC 2020 - mstopka@opensuse.org
+
+- Update to version 0.1.0.0:
+  * rename Metadata to AuxiliaryData
+  * Parameterise MetaDataHash over the crypto instead of era
+  * Parameterise era-independent types over the crypto instead of era
+  * Update ormolu version.
+  * Update dependencies
+  * MetaData -> Metadata
+  * Remove dependency on temporary base16 compatibility shim
+  * Use previous hashing prefix for timelock scripts
+  * Discard test cases where we have insufficient funds.
+
+-------------------------------------------------------------------
+Sun Nov 29 18:12:58 UTC 2020 - mimi.vx@gmail.com
+
+- Update to version 0.1.0.0:
+  * Implement EraGen and ScriptClass instances for Mary and Allegra
+  * - Move `ShelleyEra` and associated definitions to `Cardano.Ledger.Shelley`. - Define `Core` instances in the `ShelleMA` era module.
+  * API function for looking up a stake pool's params
+  * Remove redundant TODO comments.
+  * Drop the Eq instance for CompactForm via unCompact.
+  * Different serializations for Value
+  * uniform cabal license documentation
+  * aggregate rewards
+  * two pool example
+  * Generalise Metadata for different eras.
+  * Fix the min-ada calculation (#2004)
+  * Proper Compactible instance for Value
+  * Soft fork mechanism to referece major version
+  * Add set difference to Control.SetAlgebra
+  * wip
+  * Consistent naming convention for self-serialising data.
+  * "Added Sparse serialisation to Cardano.Ledger.ShelleyMA.TxBody
+  * Redid Timelock in a style suggested by Duncan. Improved the Coders library. Added a Serialisation directory in the shelley-ma tests. Added many serialization tests to test Coders.hs and Timelocks.hs, including rountdrip, embedding MultiSig into Timelock, and preservation of of serialisation bytes when translating MultiSig to Timelock.
+  * Fix thunk in Likelihood
+  * Extended Coder.hs to handle redefining TxBody as sparse encoded MemoBytes.
+  * Use 'EraIndependentTxBodyHash' in TxBody.
+
+-------------------------------------------------------------------
+Sat Oct 31 01:58:11 UTC 2020 - Mark Stopka <mstopka@opensuse.org>
+
+- Initial package

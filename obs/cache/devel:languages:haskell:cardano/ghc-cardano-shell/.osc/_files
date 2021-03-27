@@ -1,0 +1,8 @@
+<directory name="ghc-cardano-shell" rev="2" vrev="2" srcmd5="e72647be79d87e07ee909c00b6c8c469">
+  <serviceinfo code="succeeded" xsrcmd5="8c272e010044563501f29c14fad3178c" />
+  <entry name="_service" md5="003e7804e15f50683cc5c5e8e5238a2a" size="616" mtime="1604865326" />
+  <entry name="_servicedata" md5="13c09c68dacecad76aac78abdd42676c" size="250" mtime="1604865326" />
+  <entry name="cardano-shell-0.1.0.0.tar.xz" md5="d00a93996951d59303a3b140d845c2db" size="67568" mtime="1604865326" />
+  <entry name="ghc-cardano-shell.changes" md5="eb78d0ca01e7fc76805772d4ed6bfffc" size="153" mtime="1604865326" />
+  <entry name="ghc-cardano-shell.spec" md5="2fae13b251b089152deab3b6fa5dd124" size="2435" mtime="1606668282" />
+</directory>

@@ -1,0 +1,8 @@
+<package name="ghc-cardano-slotting" project="devel:languages:haskell:cardano">
+  <title>Key slotting types for cardano libraries</title>
+  <description>Key slotting types for cardano libraries.
+
+</description>
+  <url>https://github.com/input-output-hk/cardano-base</url>
+</package>
+

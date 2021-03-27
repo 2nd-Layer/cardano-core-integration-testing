@@ -1,0 +1,18 @@
+-------------------------------------------------------------------
+Sun Nov 29 18:12:17 UTC 2020 - mimi.vx@gmail.com
+
+- Update to version 0.1.0.0:
+  * Add a pure Mary mode
+  * Generalise protocolInfoShelley to protocolInfoShelleyBased
+  * BlockForging refactor: single forging thread for all eras
+  * Use a single set of credentials for all Shelley-based eras
+  * ProtocolInfo: 'sequence' pInfoBlockForging
+  * Correct era names for Shelley-based eras
+  * Remove the SafeBeforeEpoch datatype and dependencies.
+  * Simplify chain selection
+  * Use the real Allegra and Mary era tags
+
+-------------------------------------------------------------------
+Sat Oct 31 01:50:46 UTC 2020 - Mark Stopka <mstopka@opensuse.org>
+
+- Initial package

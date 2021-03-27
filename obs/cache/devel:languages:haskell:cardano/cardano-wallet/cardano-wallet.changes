@@ -1,0 +1,49 @@
+-------------------------------------------------------------------
+Fri Nov 27 16:07:26 UTC 2020 - Mark Stopka <mstopka@opensuse.org>
+
+- Update to version 2020.11.26:
+  * Bump version from 2020.11.17 to 2020.11.26
+  * rework transaction size estimation with grosser approximation
+  * get rid of 'OnDanglingChange' option for fee balancing
+  * Reformat code to comply with team coding standards.
+  * Do not re-export UTxO-related types from `Primitive.Types`.
+  * Rename `ChimericAccount` to `RewardAccount`.
+  * Do not re-export transaction types from `Primitive.Types`.
+  * Do not re-export `ChimericAccount` from `Primitive.Types`.
+  * Update benchmarks to import primitive types from dedicated modules.
+  * Do not re-export `Address` from `Primitive.Types`.
+  * Do not re-export `Coin` from `Primitive.Types`.
+  * Add SMASH integration test
+  * Bump version from 2020.11.3 to 2020.11.17
+  * Update cardano-addresses to 3.1.0
+  * Make PostPoolMaintenance to be 204 No Content to comply with swagger
+  * unify gcPoolStatus and maintenance action for a cleaner API
+  * Adjust `removePools` to not remove pools from the delisted set.
+  * Rename `delistPools` to `putDelistedPools`.
+  * Record delisted pools in a dedicated table.
+  * Update lib/shelley/src/Cardano/Wallet/Shelley/Pools.hs
+  * Add /stake-pools/metadata-gc-status endpoint
+  * Redo how we report GC status of metadata
+  * Add property test for `delistPools`
+  * Add DB test for last GC time
+  * Add stake pool maintenance endpoint
+  * Return GC sync time as well from ListStakePools
+  * Add GC worker thread for delisting Pools
+  * Move `Hash` type and related functions into dedicated module.
+  * Enable -j 8 in hydra by disabling parallel CLI tests
+  * Get epoch and slot lengths from HFC History Interpreter
+  * drop script and pub_key
+  * more precise swagger examples and shelley restore compilation fix
+  * ApiCredentials -> ApiAddressData
+  * move postAnyAddress to shelley and use proper network discrimination there plus code reshuffling
+  * add reward account impl
+  * add AnyAddress
+  * add ApiCredential and ApiCredentials
+  * add endpoint
+  * Enable `parallel` in integration tests
+  * Cleanup wallets in tests using ResourceT
+
+-------------------------------------------------------------------
+Sun Nov  8 23:41:55 UTC 2020 - Mark Stopka <mstopka@opensuse.org>
+
+- Initial package

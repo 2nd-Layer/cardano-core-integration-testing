@@ -1,0 +1,12 @@
+-------------------------------------------------------------------
+Sun Nov 29 18:09:45 UTC 2020 - mimi.vx@gmail.com
+
+- Update to version 0.2.0.0:
+  * Renamed network test components
+  * MonadTime: export NominalDiffTime, diffUTCTime and addUTCTime
+  * MonadTimer: export DiffTime
+
+-------------------------------------------------------------------
+Fri Oct 30 22:24:55 UTC 2020 - Mark Stopka <mstopka@opensuse.org>
+
+- Initial version

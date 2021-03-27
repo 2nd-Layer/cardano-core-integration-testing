@@ -1,0 +1,38 @@
+-------------------------------------------------------------------
+Thu Dec 10 18:35:05 UTC 2020 - Mark Stopka <mstopka@opensuse.org>
+
+- Update to version 2.0.0:
+  * Remove dependency on temporary base16 compatibility shim
+
+-------------------------------------------------------------------
+Sun Nov 29 18:06:47 UTC 2020 - mimi.vx@gmail.com
+
+- Update to version 2.0.0:
+  * Rollback KES changes (#183)
+  * Implement NaCl DSIGN SK forgetting
+  * Benchmark VRF and KES.  Enable benchmarks in Github Actions CI.
+  * Prevent accidental reintroduction of Ord instances for keys
+
+-------------------------------------------------------------------
+Wed Oct 21 06:08:31 UTC 2020 - Mark Stopka <mark.stopka@perlur.cloud>
+
+- fix project and source URLs
+
+-------------------------------------------------------------------
+Wed Oct 21 05:47:23 UTC 2020 - mstopka@opensuse.org
+
+- Update to version 2.0.0:
+  * Avoid using broken API function Base16.decode
+  * Replace NoUnexpectedThunks with NoThunks
+  * Cardano.Crypto.KES using libsodium bindings (#161)
+  * making ShortHash type-level parametrizable
+  * Read instance, conversion functions property tests
+  * Use recommended warnings instead of enabling everything
+  * Show hash without quotes
+  * Add ShortByteString conversions for Hash
+  * Deprecate hashRaw in favour of hashWith
+
+-------------------------------------------------------------------
+Wed Oct 21 05:34:31 UTC 2020 - Mark Stopka <mark.stopka@perlur.cloud>
+
+- initial commit 

@@ -1,0 +1,23 @@
+Index: ouroboros-consensus-byron-0.1.0.0/ouroboros-consensus-byron.cabal
+===================================================================
+--- ouroboros-consensus-byron-0.1.0.0.orig/ouroboros-consensus-byron.cabal
++++ ouroboros-consensus-byron-0.1.0.0/ouroboros-consensus-byron.cabal
+@@ -22,6 +22,10 @@ flag asserts
+   manual:      False
+   default:     False
+ 
++flag executable
++  description: Build db-converter executable
++  default:     False
++
+ library
+   hs-source-dirs:      src
+ 
+@@ -111,3 +115,7 @@ executable db-converter
+                        -Widentities
+                        -Wredundant-constraints
+                        -Wmissing-export-lists
++  if flag(executable)
++     buildable:        True
++  else
++     buildable:        False

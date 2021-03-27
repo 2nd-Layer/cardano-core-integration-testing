@@ -1,0 +1,8 @@
+<directory name="ghc-lobemo-scribe-systemd" rev="2" vrev="2" srcmd5="e0f3c6f81ff31cfa4e965ea37a646fb2">
+  <serviceinfo code="succeeded" xsrcmd5="7dd3492e74dc72529c9555142c87458a" />
+  <entry name="_service" md5="b139d57124dccc2dccb7cca8f8d5d88b" size="645" mtime="1603687371" />
+  <entry name="_servicedata" md5="c2dd3174fc3b08ac0607258a1e93c0eb" size="262" mtime="1603687371" />
+  <entry name="ghc-lobemo-scribe-systemd.changes" md5="6c57c04c487bdd4f30a7ec691331ea32" size="153" mtime="1603687371" />
+  <entry name="ghc-lobemo-scribe-systemd.spec" md5="951952780fb10433c2ff63e0dc98c122" size="2180" mtime="1606668327" />
+  <entry name="lobemo-scribe-systemd-0.1.0.0.tar.xz" md5="d257297ba7b91dd60d94a69549e05870" size="6204" mtime="1603687372" />
+</directory>

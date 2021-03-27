@@ -1,0 +1,8 @@
+<directory name="ghc-Win32-network" rev="3" vrev="3" srcmd5="d530b4ba87b0251821e400e2b3d53248">
+  <serviceinfo code="succeeded" xsrcmd5="e376a59c206c888a2304e5334f17b1e0" />
+  <entry name="Win32-network-0.1.0.0.tar.xz" md5="6d9b3fc60dd0b41aa0ade15dba9a9cc1" size="30088" mtime="1606674264" />
+  <entry name="_service" md5="f7cc98d39aa3a4642f88141052277712" size="620" mtime="1603890513" />
+  <entry name="_servicedata" md5="dbfd29fbff65550631e85a3e8f5f6cfd" size="254" mtime="1606674264" />
+  <entry name="ghc-Win32-network.changes" md5="436f558c6a07ef7cf5526cee15abb59f" size="369" mtime="1606674264" />
+  <entry name="ghc-Win32-network.spec" md5="c7f3a928b18be685994b6248000bb9e9" size="1755" mtime="1606668260" />
+</directory>

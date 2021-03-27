@@ -1,0 +1,8 @@
+<directory name="ghc-cardano-wallet-jormungandr" rev="3" vrev="3" srcmd5="691b473577f1c137ed830c2fbeb68cdf">
+  <serviceinfo code="succeeded" xsrcmd5="d191f9355ea292001f403b00455eb50a" />
+  <entry name="_service" md5="bec787ad81ce5e56f53dba0660958c67" size="640" mtime="1604883591" />
+  <entry name="_servicedata" md5="120a18b6a7bf05c1be5420a9728748c6" size="251" mtime="1604883591" />
+  <entry name="cardano-wallet-jormungandr-2020.11.03.tar.xz" md5="cc7a96d3ec6f3cc8ca62fd650cdf63f8" size="777784" mtime="1606674291" />
+  <entry name="ghc-cardano-wallet-jormungandr.changes" md5="3ef02cb2d8360674347f550c75a2537b" size="153" mtime="1604883592" />
+  <entry name="ghc-cardano-wallet-jormungandr.spec" md5="6c1eadc64740f08e60f3bf260a38c6c8" size="4609" mtime="1606668292" />
+</directory>

@@ -1,0 +1,8 @@
+<directory name="ghc-typed-protocols" rev="2" vrev="2" srcmd5="961ab24814fe65bb2c8a5930b6161d71">
+  <serviceinfo code="succeeded" xsrcmd5="4694b36ee8c44575ab35c221360301ba" />
+  <entry name="_service" md5="56f08b492e6a277ead0a4ad19c143feb" size="624" mtime="1604098319" />
+  <entry name="_servicedata" md5="38ac8a18746b1b5ebcc7e35d52ce1aae" size="254" mtime="1604098320" />
+  <entry name="ghc-typed-protocols.changes" md5="66d071d5a60c8c71221c1a07a053339f" size="153" mtime="1604098320" />
+  <entry name="ghc-typed-protocols.spec" md5="1e490e8be1d78198bb985189484c0483" size="1821" mtime="1606668362" />
+  <entry name="typed-protocols-0.1.0.0.tar.xz" md5="561b4e6d68704c28a786a7f9d2427b07" size="18080" mtime="1604098320" />
+</directory>

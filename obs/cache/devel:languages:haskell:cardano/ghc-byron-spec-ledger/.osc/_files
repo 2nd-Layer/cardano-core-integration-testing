@@ -1,0 +1,8 @@
+<directory name="ghc-byron-spec-ledger" rev="4" vrev="4" srcmd5="42118a0bee51f98abc08a4c525ebfa39">
+  <serviceinfo code="succeeded" xsrcmd5="0289c1fb4f9f2f0a4a406d004195d240" />
+  <entry name="_service" md5="133d4d08edaec784cab2237ee353586e" size="642" mtime="1604043544" />
+  <entry name="_servicedata" md5="719b0dccb474e7737f0840d6f893f25c" size="257" mtime="1606674266" />
+  <entry name="byron-spec-ledger-0.1.0.0.tar.xz" md5="1a4b8df1a8d4fbc19083f3bb77fa16ec" size="188928" mtime="1606674266" />
+  <entry name="ghc-byron-spec-ledger.changes" md5="6243347d0f066cdf74703d12efd79424" size="342" mtime="1606674267" />
+  <entry name="ghc-byron-spec-ledger.spec" md5="a57856ba1eb8edabc263efa377464f11" size="2626" mtime="1607664896" />
+</directory>

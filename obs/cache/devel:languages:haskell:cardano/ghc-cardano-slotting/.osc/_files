@@ -1,0 +1,9 @@
+<directory name="ghc-cardano-slotting" rev="7" vrev="7" srcmd5="f6df73340fe5584f7fa39d35424246b1">
+  <serviceinfo code="succeeded" xsrcmd5="172d05f54987ac47e7fa9c45e71f0b99" />
+  <entry name="_service" md5="000f2c355bfbbd041104934b332b9070" size="613" mtime="1607668744" />
+  <entry name="_servicedata" md5="4719c884ff74b801250ef8948caad467" size="466" mtime="1607668744" />
+  <entry name="cardano-slotting-0.1.0.0.tar.xz" md5="901d15b8f7bd21ddb0a5df53d3aac801" size="6340" mtime="1607668744" />
+  <entry name="cardano-slotting.cabal" md5="00a7b297618726ef1692d7314fae6fa5" size="1303" mtime="1603260180" />
+  <entry name="ghc-cardano-slotting.changes" md5="1d752fdf6cfbb1aca0c301a506349e10" size="1150" mtime="1607668744" />
+  <entry name="ghc-cardano-slotting.spec" md5="013049eb1f3fdf9f45bbb59343ef7e14" size="2024" mtime="1606668284" />
+</directory>

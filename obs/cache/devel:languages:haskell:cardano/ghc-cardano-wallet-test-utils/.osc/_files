@@ -1,0 +1,9 @@
+<directory name="ghc-cardano-wallet-test-utils" rev="7" vrev="3" srcmd5="6ea984150be23fd8592d4051f939fc69">
+  <serviceinfo code="succeeded" xsrcmd5="026d65f0358d70ea75806c25b1b90332" />
+  <entry name="_service" md5="e7fa7d486cb4892f32f7f9a30cd396d4" size="637" mtime="1607691030" />
+  <entry name="_servicedata" md5="4578990bb9cfff84840f30438f43ae26" size="251" mtime="1607691030" />
+  <entry name="cardano-wallet-test-utils-2020.12.8.tar.xz" md5="6a57b4bda4b3f10f0d863c305afb458c" size="8276" mtime="1607691030" />
+  <entry name="ghc-cardano-wallet-test-utils.changes" md5="d38ac4c70b1ffac6b521449698502665" size="584" mtime="1607691030" />
+  <entry name="ghc-cardano-wallet-test-utils.spec" md5="bde42e26f85ee321149622c01b709fad" size="2614" mtime="1607691030" />
+  <entry name="lens.patch" md5="da91133cfcc93c5ea5e351990f737447" size="1188" mtime="1607691030" />
+</directory>

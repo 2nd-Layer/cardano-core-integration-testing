@@ -1,0 +1,8 @@
+<directory name="ghc-lobemo-backend-monitoring" rev="3" vrev="3" srcmd5="c032add34941e1eae2d7de2f38b7da9f">
+  <serviceinfo code="succeeded" xsrcmd5="3307c386ff91a25f77517a9b4468adcb" />
+  <entry name="_service" md5="c4f44f39d83c2527f41ec4d7ab534e91" size="653" mtime="1603688438" />
+  <entry name="_servicedata" md5="c229e9517792d82cb9c2f250a8616861" size="262" mtime="1606674304" />
+  <entry name="ghc-lobemo-backend-monitoring.changes" md5="ca20e8aa519b015b415aee465c535b32" size="364" mtime="1606674304" />
+  <entry name="ghc-lobemo-backend-monitoring.spec" md5="31edb1c3b333215b9c4447e79795f54a" size="2999" mtime="1606668320" />
+  <entry name="lobemo-backend-monitoring-0.1.0.0.tar.xz" md5="6ec1c5650de1983d722b3458a732b98c" size="10240" mtime="1606674304" />
+</directory>

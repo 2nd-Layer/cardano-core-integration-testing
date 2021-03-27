@@ -1,0 +1,5 @@
+<package name="cardano-rt-view" project="devel:languages:haskell:cardano:nightly">
+  <title>Real-time watching for Cardano nodes</title>
+  <description/>
+</package>
+

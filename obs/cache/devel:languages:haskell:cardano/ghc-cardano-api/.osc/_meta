@@ -1,0 +1,8 @@
+<package name="ghc-cardano-api" project="devel:languages:haskell:cardano">
+  <title>Cardano API</title>
+  <description>The cardano api.
+
+</description>
+  <url>https://github.com/input-output-hk/cardano-node/tree/master/cardano-api</url>
+</package>
+

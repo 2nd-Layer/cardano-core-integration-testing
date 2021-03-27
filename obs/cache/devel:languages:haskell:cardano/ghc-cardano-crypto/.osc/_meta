@@ -1,0 +1,8 @@
+<package name="ghc-cardano-crypto" project="devel:languages:haskell:cardano">
+  <title>Cryptography primitives for cardano</title>
+  <description>Cryptography primitives for cardano.
+
+</description>
+  <url>https://github.com/input-output-hk/cardano-crypto</url>
+</package>
+

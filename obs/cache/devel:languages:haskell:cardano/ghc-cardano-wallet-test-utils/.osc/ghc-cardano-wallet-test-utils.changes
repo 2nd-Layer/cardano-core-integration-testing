@@ -1,0 +1,15 @@
+-------------------------------------------------------------------
+Fri Dec 11 12:40:20 UTC 2020 - mimi.vx@gmail.com
+
+- Update to version 2020.12.08:
+  * Bump version from 2020.11.26 to 2020.12.8
+  * define a test helper for 'reasonablySized' data-structure generation.
+  * Bump version from 2020.11.17 to 2020.11.26
+  * Add flakyBecauseOf hspec helper
+  * Add SMASH integration test
+  * Bump version from 2020.11.3 to 2020.11.17
+
+-------------------------------------------------------------------
+Mon Nov  9 03:23:10 UTC 2020 - Mark Stopka <mstopka@opensuse.org>
+
+- Initial package

@@ -1,0 +1,5 @@
+<package name="ghc-cardano-wallet-cli" project="devel:languages:haskell:cardano">
+  <title/>
+  <description/>
+</package>
+

@@ -1,0 +1,11 @@
+-------------------------------------------------------------------
+Sun Nov 29 18:11:11 UTC 2020 - mimi.vx@gmail.com
+
+- Update to version 0.0.1:
+  * Renamed network test components
+  * Upgrade to network-3.1.2.0
+
+-------------------------------------------------------------------
+Sat Oct 31 00:27:13 UTC 2020 - Mark Stopka <mstopka@opensuse.org>
+
+- Initial package

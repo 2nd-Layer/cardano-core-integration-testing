@@ -1,0 +1,8 @@
+<package name="ghc-text-class" project="devel:languages:haskell:cardano">
+  <title>Extra helpers to convert data-types to and from Text</title>
+  <description>Extra helpers to convert data-types to and from Text.
+
+</description>
+  <url>https://github.com/input-output-hk/cardano-wallet/tree/master/lib/text-class</url>
+</package>
+

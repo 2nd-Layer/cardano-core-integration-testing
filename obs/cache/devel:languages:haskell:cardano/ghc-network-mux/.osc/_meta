@@ -1,0 +1,8 @@
+<package name="ghc-network-mux" project="devel:languages:haskell:cardano">
+  <title>Multiplexing library</title>
+  <description>Multiplexing library.
+
+</description>
+  <url>https://github.com/input-output-hk/ouroboros-network/tree/master/network-mux</url>
+</package>
+

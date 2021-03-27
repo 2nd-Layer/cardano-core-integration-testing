@@ -1,0 +1,16 @@
+<services>
+  <service mode="disabled" name="tar_scm">
+    <param name="url">https://github.com/input-output-hk/ouroboros-network.git</param>
+    <param name="scm">git</param>
+    <param name="changesgenerate">enable</param>
+    <param name="filename">Win32-network</param>
+    <param name="subdir">Win32-network</param>
+    <param name="revision">master</param>
+    <param name="versionformat">0.1.0.0</param>
+  </service>
+  <service mode="disabled" name="recompress">
+    <param name="file">*.tar</param>
+    <param name="compression">xz</param>
+  </service>
+  <service mode="disabled" name="set_version"/>
+</services>

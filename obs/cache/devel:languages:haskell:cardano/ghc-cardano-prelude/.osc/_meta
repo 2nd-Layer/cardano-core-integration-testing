@@ -1,0 +1,9 @@
+<package name="ghc-cardano-prelude" project="devel:languages:haskell:cardano">
+  <title>A Prelude replacement for the Cardano project</title>
+  <description>A Prelude replacement for the Cardano project.
+
+
+</description>
+  <url>https://github.com/input-output-hk/cardano-prelude</url>
+</package>
+

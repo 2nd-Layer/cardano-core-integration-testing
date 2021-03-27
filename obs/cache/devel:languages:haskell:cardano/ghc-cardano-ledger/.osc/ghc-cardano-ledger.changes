@@ -1,0 +1,30 @@
+-------------------------------------------------------------------
+Wed Dec 09 10:18:34 UTC 2020 - mimi.vx@gmail.com
+
+- Update to version 0.1.0.0:
+  * Remove dependency on temporary base16 compatibility shim
+
+-------------------------------------------------------------------
+Sun Nov 29 18:07:02 UTC 2020 - mimi.vx@gmail.com
+
+- Update to version 0.1.0.0:
+  * Add missing version bound on streaming-bytestring
+
+-------------------------------------------------------------------
+Fri Nov 27 14:53:55 UTC 2020 - Mark Stopka <mstopka@opensuse.org>
+
+- Update to version 0.1.0.0:
+  * Update index state to 2020-11-15
+  * fix streaming-bytestring >= 2.0 API compatibility of Byron
+  * uniform cabal license documentation
+
+-------------------------------------------------------------------
+Sun Nov  8 14:04:21 UTC 2020 - Mark Stopka <mstopka@opensuse.org>
+
+- Update project URL
+- Update Source0 file path
+
+-------------------------------------------------------------------
+Sat Oct 31 02:18:38 UTC 2020 - Mark Stopka <mstopka@opensuse.org>
+
+- Initial package

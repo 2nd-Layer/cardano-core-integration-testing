@@ -1,0 +1,22 @@
+-------------------------------------------------------------------
+Sun Nov 29 18:09:05 UTC 2020 - mimi.vx@gmail.com
+
+- Update to version 0.1.10.1:
+  * CAD-2352 tests:  increase forked trace test tolerance, since macOS fails often
+  * CAD-2352 windows:  disable tests failing on Github/Windows
+  * CAD-2352 github:  drop ghc 8.6.5, to reduce false negative frequency
+  * CAD-2352 macOS:  more details in unitTraceInFor failures
+  * CAD-2352 windows:  fix readSysStats
+  * example for ResourceStats; counters on macOS
+  * Adjusted unitNameMinSeverity test
+  * Revert "Fix severity tests"
+  * CAD-1859 appease stylish-haskell
+  * CAD-1859 resource stats:  more metrics & switch to HKD
+  * CAD-2069 process metrics:  add GC time
+  * CAD-2069 Cardano.BM.Stats.readProcessStats:  minimal, aggregated process stats
+  * CAD-2069  readProcStats/Linux:  return less metrics for process stats
+
+-------------------------------------------------------------------
+Wed Oct 28 07:17:04 UTC 2020 - Mark Stopka <mstopka@opensuse.org>
+
+- Initial package

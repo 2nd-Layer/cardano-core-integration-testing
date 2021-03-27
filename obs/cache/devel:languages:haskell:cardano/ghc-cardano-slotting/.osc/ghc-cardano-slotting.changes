@@ -1,0 +1,28 @@
+-------------------------------------------------------------------
+Thu Dec 10 23:51:43 UTC 2020 - mstopka@opensuse.org
+
+- Update to version 0.1.0.0:
+  * Fix hlint warnings
+  * Add Bounded instance for WithOrigin
+  * Remove no longer used Cardano.Slotting.SlotBounded module
+  * Trim unused packages
+  * Replace NoUnexpectedThunks with NoThunks
+  * Quiet show instances
+  * Move orphan aeson instances from cardano-node
+  * HasCallStack in EpochInfo
+  * slotting: Derive NFData for SlotNo
+  * Added missing encodedSizeExpr for BlockNo and SlotNo
+
+-------------------------------------------------------------------
+Thu Dec 10 23:50:24 UTC 2020 - Mark Stopka <mstopka@opensuse.org>
+
+- Change Git repository URI to https
+
+-------------------------------------------------------------------                                                                                                         Wed Oct 21 06:06:31 UTC 2020 - Mark Stopka <mark.stopka@perlur.cloud>
+
+- fix source and project URLs
+
+-------------------------------------------------------------------
+Wed Oct 21 06:01:31 UTC 2020 - Mark Stopka <mark.stopka@perlur.cloud>
+
+- initial commit

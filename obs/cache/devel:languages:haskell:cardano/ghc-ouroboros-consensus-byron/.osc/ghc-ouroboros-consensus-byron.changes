@@ -1,0 +1,13 @@
+-------------------------------------------------------------------
+Sun Nov 29 18:11:45 UTC 2020 - mimi.vx@gmail.com
+
+- Update to version 0.1.0.0:
+  * BlockForging refactor: single forging thread for all eras
+  * ProtocolInfo: 'sequence' pInfoBlockForging
+  * Remove the SafeBeforeEpoch datatype and dependencies.
+  * Simplify chain selection
+
+-------------------------------------------------------------------
+Sat Oct 31 01:39:48 UTC 2020 - Mark Stopka <mstopka@opensuse.org>
+
+- Initial package

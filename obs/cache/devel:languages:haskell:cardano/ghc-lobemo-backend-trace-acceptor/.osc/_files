@@ -1,0 +1,8 @@
+<directory name="ghc-lobemo-backend-trace-acceptor" rev="2" vrev="2" srcmd5="34ba72677f54fb895a95393bcf1b333d">
+  <serviceinfo code="succeeded" xsrcmd5="aa7582ea903f4a44012be02ec36ffdbd" />
+  <entry name="_service" md5="309c433ae729fb2781cdb5727032b52c" size="661" mtime="1603686731" />
+  <entry name="_servicedata" md5="fadb920ef62cc5ce73bcbb9a7f21a8bf" size="262" mtime="1603686731" />
+  <entry name="ghc-lobemo-backend-trace-acceptor.changes" md5="d9de736d10bf68132cac9ce1f84b1084" size="153" mtime="1603686731" />
+  <entry name="ghc-lobemo-backend-trace-acceptor.spec" md5="782d8a864d590995710495874b098519" size="2188" mtime="1606668322" />
+  <entry name="lobemo-backend-trace-acceptor-0.1.0.0.tar.xz" md5="75e3fa9c092ae9e247b714e379945af4" size="6916" mtime="1603686732" />
+</directory>

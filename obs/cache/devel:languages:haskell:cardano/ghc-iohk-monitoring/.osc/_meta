@@ -1,0 +1,8 @@
+<package name="ghc-iohk-monitoring" project="devel:languages:haskell:cardano">
+  <title>Logging, benchmarking and monitoring framework</title>
+  <description>Logging, benchmarking and monitoring framework.
+
+</description>
+  <url>https://github.com/input-output-hk/iohk-monitoring-framework/</url>
+</package>
+

@@ -1,0 +1,8 @@
+<directory name="ghc-ouroboros-consensus" rev="5" vrev="5" srcmd5="f8454dcca4c0273766fe454a15df2ac7">
+  <serviceinfo code="succeeded" xsrcmd5="b67087b35c6f5d6a58c339c6c50e84cc" />
+  <entry name="_service" md5="03df403f2f3f796c3f9c9ad68cd45999" size="632" mtime="1604107743" />
+  <entry name="_servicedata" md5="c370180c20281afaacc2359c70d5a7d5" size="254" mtime="1607676967" />
+  <entry name="ghc-ouroboros-consensus.changes" md5="d1b760da28a6d16bf763ed0dc0b1d4e6" size="3428" mtime="1607676967" />
+  <entry name="ghc-ouroboros-consensus.spec" md5="b306c95b44a13a148965678acf157485" size="3277" mtime="1607676967" />
+  <entry name="ouroboros-consensus-0.1.0.0.tar.xz" md5="211e81b4b4767670b0068e9c851ff123" size="339524" mtime="1607676968" />
+</directory>

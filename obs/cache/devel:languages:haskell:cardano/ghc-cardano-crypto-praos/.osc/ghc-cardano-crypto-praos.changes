@@ -1,0 +1,33 @@
+-------------------------------------------------------------------
+Sun Nov 29 18:06:51 UTC 2020 - mimi.vx@gmail.com
+
+- Update to version 2.0.0:
+  * Benchmark VRF and KES.  Enable benchmarks in Github Actions CI.
+
+-------------------------------------------------------------------
+Sun Nov  8 19:35:35 UTC 2020 - Mark Stopka <mstopka@opensuse.org>
+
+- Define flag to use built-in VRF
+
+Wed Oct 21 06:12:31 UTC 2020 - Mark Stopka <mark.stopka@perlur.cloud>
+
+- fix project and source URLs
+
+-------------------------------------------------------------------
+Wed Oct 21 05:52:30 UTC 2020 - mstopka@opensuse.org
+
+- Update to version 2.0.0:
+  * More informative invalid length error message
+  * Trim unused packages
+  * Replace NoUnexpectedThunks with NoThunks
+  * Compile with GHC8.10.2 (#157)
+  * Use recommended warnings instead of enabling everything
+  * Change Signable constraint to use SignableRepresentation
+  * VRF: Document getSeed
+  * In Praos VRF, use useAsCStringLen.
+  * Get rid of MonadRandom
+
+-------------------------------------------------------------------
+Wed Oct 21 05:39:31 UTC 2020 - Mark Stopka <mark.stopka@perlur.cloud>
+
+- initial commit 

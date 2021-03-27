@@ -1,0 +1,8 @@
+<package name="cardano-rt-view" project="devel:languages:haskell:cardano">
+  <title>Cardano RTView</title>
+  <description>Cardano RTView: Real-time watching for Cardano nodes.
+
+</description>
+  <url>https://github.com/input-output-hk/cardano-rt-view</url>
+</package>
+

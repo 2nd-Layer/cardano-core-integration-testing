@@ -1,0 +1,8 @@
+<directory name="ghc-lobemo-backend-trace-forwarder" rev="3" vrev="3" srcmd5="951df60b7e52d943c4e87e912e6f1275">
+  <serviceinfo code="succeeded" xsrcmd5="a54ca4e4cf2de22c5c616db20e352440" />
+  <entry name="_service" md5="fa114800a4e53aa7419dedc741c0694f" size="663" mtime="1603687662" />
+  <entry name="_servicedata" md5="ec388ca02e3a273c298baa4ab97765d7" size="262" mtime="1606674306" />
+  <entry name="ghc-lobemo-backend-trace-forwarder.changes" md5="3a6917fe4011bfc3b980a89478f3deb1" size="340" mtime="1606674306" />
+  <entry name="ghc-lobemo-backend-trace-forwarder.spec" md5="b89b96386b302a85698caadd413353f7" size="2177" mtime="1606668324" />
+  <entry name="lobemo-backend-trace-forwarder-0.1.0.0.tar.xz" md5="4f18c4d0762bec3b47763384cbc3883f" size="8588" mtime="1606674306" />
+</directory>

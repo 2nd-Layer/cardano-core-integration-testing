@@ -1,0 +1,9 @@
+<directory name="ghc-ouroboros-consensus-byron" rev="4" vrev="4" srcmd5="ee2392735ef5ea65e3f10683b1dba6f5">
+  <serviceinfo code="succeeded" xsrcmd5="0ff28a597d9af842c0ec4669bf707de5" />
+  <entry name="_service" md5="bdc3962a0b07df1c1d7669d6cc30cb8d" size="644" mtime="1604108483" />
+  <entry name="_servicedata" md5="8ad2ba1b77a62e0d622abf72ebe24df3" size="254" mtime="1606674315" />
+  <entry name="disable-executable.patch" md5="ca12fb183a8907cef12834fd957f7fd9" size="756" mtime="1604862036" />
+  <entry name="ghc-ouroboros-consensus-byron.changes" md5="9a4f431b72cee02ae54c50dcaa87157e" size="497" mtime="1606674315" />
+  <entry name="ghc-ouroboros-consensus-byron.spec" md5="10e61ed57c19ded9f2aeb69b804a07c3" size="3010" mtime="1606668335" />
+  <entry name="ouroboros-consensus-byron-0.1.0.0.tar.xz" md5="5ae9803aa8ec1370fc76fbe9898e942e" size="53260" mtime="1606674315" />
+</directory>

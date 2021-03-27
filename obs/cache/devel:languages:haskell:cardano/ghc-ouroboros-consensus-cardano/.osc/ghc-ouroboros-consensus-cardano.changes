@@ -1,0 +1,24 @@
+-------------------------------------------------------------------
+Sun Nov 29 18:12:01 UTC 2020 - mimi.vx@gmail.com
+
+- Update to version 0.1.0.0:
+  * Add a pure Mary mode
+  * cardano-test: factor out TwoEras infra; intro ShelleyAllegra test
+  * Move Nary and Unary under a new Embed hierarchy
+  * BlockForging refactor: single forging thread for all eras
+  * Use a single set of credentials for all Shelley-based eras
+  * ProtocolInfo: 'sequence' pInfoBlockForging
+  * Correct era names for Shelley-based eras
+  * Cardano: use the right genesis configs for the shape
+  * Remove the SafeBeforeEpoch datatype and dependencies.
+  * Simplify chain selection
+  * consensus: put a ChainDbArgs Defaults field in LowLevelRunNodeArgs
+  * consensus: decouple Node.run from ChainDB file system
+  * Remove the SafeBeforeEpoch parameter
+  * Enable network versions for Allegra and Mary
+  * Use the real Allegra and Mary era tags
+
+-------------------------------------------------------------------
+Sat Oct 31 01:45:39 UTC 2020 - Mark Stopka <mstopka@opensuse.org>
+
+- Initial package

@@ -1,0 +1,11 @@
+-------------------------------------------------------------------
+Sun Nov 29 18:06:43 UTC 2020 - mimi.vx@gmail.com
+
+- Update to version 1.1.0:
+  * Remove travis CI because they're extremely out of date
+  * Add GHC 8.6.5 and GHC 8.10.2 to CI
+
+-------------------------------------------------------------------
+Sun Oct 18 22:11:55 UTC 2020 - Ondřej Súkup <mimi.vx@gmail.com>
+
+- initial package 

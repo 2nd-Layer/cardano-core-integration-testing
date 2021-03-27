@@ -1,0 +1,16 @@
+-------------------------------------------------------------------
+Sun Nov  8 21:12:29 UTC 2020 - Mark Stopka <mstopka@opensuse.org>
+
+- Fix
+
+-------------------------------------------------------------------
+Sun Nov 08 20:55:03 UTC 2020 - mstopka@opensuse.org
+
+- Update to version 1.22.1:
+  * Bump version to 1.22.1 and update change logs
+  * Update: fix ValueNotConservedUTxO serialization
+
+-------------------------------------------------------------------
+Fri Oct 30 07:37:31 UTC 2020 - Mark Stopka <mstopka@opensuse.org>
+
+- Initial package

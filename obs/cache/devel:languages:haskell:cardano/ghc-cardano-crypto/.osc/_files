@@ -1,0 +1,9 @@
+<directory name="ghc-cardano-crypto" rev="5" vrev="4" srcmd5="9ab72200494f28db69a794b0f226a0ea">
+  <serviceinfo code="succeeded" xsrcmd5="483e6701c88e7f4e93be533322cba993" />
+  <entry name="_service" md5="afca63d46a8892367b9735faca7f7982" size="565" mtime="1603059144" />
+  <entry name="_servicedata" md5="29943be558813fb32897ecbf487af138" size="392" mtime="1606674273" />
+  <entry name="cardano-crypto-1.1.0.tar.xz" md5="13ac0e12728ca8766b2c772745f94aae" size="114388" mtime="1606674273" />
+  <entry name="cardano-crypto.cabal" md5="02f64242e3f361bb3bb1dfac40acb445" size="4957" mtime="1603055335" />
+  <entry name="ghc-cardano-crypto.changes" md5="7313522b770c6210295e33a5ad193f62" size="398" mtime="1606674273" />
+  <entry name="ghc-cardano-crypto.spec" md5="d736019b5f83d6225dfb6431504ca99b" size="2022" mtime="1606668269" />
+</directory>

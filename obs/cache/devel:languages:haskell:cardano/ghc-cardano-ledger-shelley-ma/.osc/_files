@@ -1,0 +1,8 @@
+<directory name="ghc-cardano-ledger-shelley-ma" rev="4" vrev="4" srcmd5="ee5d1e2f14c46de5a26c29f9dc780d8a">
+  <serviceinfo code="succeeded" xsrcmd5="3aa63944c7588a63c6c5acb8153e5b1d" />
+  <entry name="_service" md5="3c00077d197f27d4eff8c5ad832dfc3b" size="637" mtime="1604111516" />
+  <entry name="_servicedata" md5="35fd5bf1e9c64d249940a98a5a904224" size="257" mtime="1607666109" />
+  <entry name="cardano-ledger-shelley-ma-0.1.0.0.tar.xz" md5="d606769fcbeabc0c8cf73dd535d12197" size="16864" mtime="1607666110" />
+  <entry name="ghc-cardano-ledger-shelley-ma.changes" md5="db679b492397b11bc450b3a930adb563" size="2984" mtime="1607666110" />
+  <entry name="ghc-cardano-ledger-shelley-ma.spec" md5="3e77ca250675b88ef312c62106389db8" size="2345" mtime="1606668278" />
+</directory>

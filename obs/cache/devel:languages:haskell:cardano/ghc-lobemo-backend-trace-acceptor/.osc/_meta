@@ -1,0 +1,8 @@
+<package name="ghc-lobemo-backend-trace-acceptor" project="devel:languages:haskell:cardano">
+  <title>A trace acceptor backend</title>
+  <description>A trace acceptor backend.
+
+</description>
+  <url>https://github.com/input-output-hk/iohk-monitoring-framework/</url>
+</package>
+

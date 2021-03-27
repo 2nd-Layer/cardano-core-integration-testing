@@ -1,0 +1,18 @@
+-------------------------------------------------------------------
+Sun Nov 29 18:13:34 UTC 2020 - mimi.vx@gmail.com
+
+- Update to version 0.1.0.0:
+  * uniform cabal license documentation
+  * Add set difference to Control.SetAlgebra
+  * "Added Sparse serialisation to Cardano.Ledger.ShelleyMA.TxBody
+  * Fix export comment.  This was accidentally changed in upgrade to ghc-8.10.2
+  * Redid Timelock in a style suggested by Duncan. Improved the Coders library. Added a Serialisation directory in the shelley-ma tests. Added many serialization tests to test Coders.hs and Timelocks.hs, including rountdrip, embedding MultiSig into Timelock, and preservation of of serialisation bytes when translating MultiSig to Timelock.
+  * Add faster means for deserialising 'Bimap'.
+  * Fix serialisation of Bimap
+  * Extended Coder.hs to handle redefining TxBody as sparse encoded MemoBytes.
+  * "Added the TxBody type with validity intervals and forge fields. Tied this together with the Timelocks scripts. TxBody is newtype wrapped around a MemoBytes. It exports a set of HasField instances appropriate for a TxBody. Also created a test file with a minumum number of test, testing the HasField use and roundtripp CBOR properties. Cleaned up and extended Jareds idea of using EraIndependentTxBody. Extended this to all types with a HashAnnotated instance, which now adds an associated type family HashIndex. Made all uses consistent with this approach, Removed the function eraIndTxBodyHash, which can be replaced hashAnnotated."
+
+-------------------------------------------------------------------
+Sat Oct 31 02:06:42 UTC 2020 - Mark Stopka <mstopka@opensuse.org>
+
+- Initial package

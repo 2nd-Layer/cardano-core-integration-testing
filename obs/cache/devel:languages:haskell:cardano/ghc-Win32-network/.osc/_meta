@@ -1,0 +1,8 @@
+<package name="ghc-Win32-network" project="devel:languages:haskell:cardano">
+  <title>Win32 network API</title>
+  <description>Win32 network API.
+
+</description>
+  <url>https://github.com/input-output-hk/ouroboros-network/tree/master/Win32-network</url>
+</package>
+

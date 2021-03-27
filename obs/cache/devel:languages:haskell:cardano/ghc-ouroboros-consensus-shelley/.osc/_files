@@ -1,0 +1,8 @@
+<directory name="ghc-ouroboros-consensus-shelley" rev="3" vrev="3" srcmd5="9ae5a849257b6d4148e013872b8f8ab1">
+  <serviceinfo code="succeeded" xsrcmd5="4b611d52ff6b963b6211a2932b960454" />
+  <entry name="_service" md5="fd2c836ce0d900962033b7f6acb978be" size="648" mtime="1604109062" />
+  <entry name="_servicedata" md5="396a6f13819d5dfd059e7b881da67905" size="254" mtime="1606674319" />
+  <entry name="ghc-ouroboros-consensus-shelley.changes" md5="320df662ae1c45be4d4b2aca747af685" size="736" mtime="1606674319" />
+  <entry name="ghc-ouroboros-consensus-shelley.spec" md5="971b696be13d4daccf912bbe2582c0cc" size="2577" mtime="1606668340" />
+  <entry name="ouroboros-consensus-shelley-0.1.0.0.tar.xz" md5="b2b447ad68e146f2e32c1b8c03a26af3" size="32500" mtime="1606674319" />
+</directory>

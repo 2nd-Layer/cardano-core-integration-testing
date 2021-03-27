@@ -1,0 +1,8 @@
+<directory name="ghc-cardano-wallet-launcher" rev="2" vrev="2" srcmd5="b5ebd9db71cecdfefc6479edb0f35844">
+  <serviceinfo code="succeeded" xsrcmd5="c4d8b6241e554def26310cc5aae6103e" />
+  <entry name="_service" md5="f1cd3995f82249a567a81bb36955cf42" size="634" mtime="1604884036" />
+  <entry name="_servicedata" md5="120a18b6a7bf05c1be5420a9728748c6" size="251" mtime="1604884036" />
+  <entry name="cardano-wallet-launcher-2020.11.03.tar.xz" md5="3e4bdfc27ccfb660d652b2b623be7277" size="9956" mtime="1604884036" />
+  <entry name="ghc-cardano-wallet-launcher.changes" md5="37705589f5576a95a64347729c9a8584" size="153" mtime="1604884036" />
+  <entry name="ghc-cardano-wallet-launcher.spec" md5="bf728b43e4515ab3bc21db680adf4df1" size="2505" mtime="1606668294" />
+</directory>

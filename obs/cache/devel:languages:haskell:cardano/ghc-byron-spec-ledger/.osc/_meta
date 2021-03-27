@@ -1,0 +1,8 @@
+<package name="ghc-byron-spec-ledger" project="devel:languages:haskell:cardano">
+  <title>Executable specification of Cardano ledger</title>
+  <description>Executable specification of Cardano ledger.
+
+</description>
+  <url>https://github.com/input-output-hk/cardano-ledger-specs/tree/master/byron</url>
+</package>
+

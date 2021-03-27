@@ -1,0 +1,72 @@
+-------------------------------------------------------------------
+Fri Dec 11 02:07:50 UTC 2020 - Mark Stopka <mstopka@opensuse.org>
+- Update package upstream URL
+- Update to version 0.1.0.0:
+  * Support for getting peers from ledger (disabled)
+  * LedgerSupportsPeerSelection: return peers registered in ledger state
+  * ChainDB: add getImmutableLedger
+  * ChainDB: simplify the API by exposing the LedgerDB
+  * LedgerDB: remove the ledgerDbParams field
+  * Reimplement HeaderStateHistory using AnchoredSeq
+  * Reimplement LedgerDB using AnchoredSeq
+  * Remove obsolete BlockMeasure instances
+  * Introduce AnchoredSeq
+  * Fix unexpected thunk in LgrDB
+
+-------------------------------------------------------------------
+Wed Dec 09 10:37:20 UTC 2020 - mimi.vx@gmail.com
+
+- Update to version 0.1.0.0:
+  * MetaData -> Metadata
+  * Parameterise LedgerDB over blk instead of r
+  * Inject transactions from past eras when forging a block
+  * Unify TraceBlockchainTimeEvent with HardForkBlockchainTimeEvent
+  * Allow for limited wallclock rollback in simpleBlockchainTime
+  * Allow for limited wallclock rollback in hardForkBlockchainTime
+  * Remove ChainFragment
+
+-------------------------------------------------------------------
+Sun Nov 29 18:11:28 UTC 2020 - mimi.vx@gmail.com
+
+- Update to version 0.1.0.0:
+  * Add a generic protocolInfoBinary
+  * Move Nary and Unary under a new Embed hierarchy
+  * Parameterise error types over blk for deriving instances
+  * Use h(c)imap and h(c)izipWithX instead of injections
+  * BlockForging refactor: single forging thread for all eras
+  * Add unsafeExtendSafeZone footgun
+  * Add indexed variants of h(c)map and h(c)zipWithX
+  * Swap type argument order of Index
+  * ProtocolInfo: 'sequence' pInfoBlockForging
+  * Revert the use of libsodium for KES
+  * Update comments: s/UnsafeUnbounded/UnsafeIndefiniteSafeZone/g
+  * Remove the SafeBeforeEpoch datatype and dependencies.
+  * Simplify chain selection
+  * Rename candidates to maximalCandidates
+  * consensus: don't require NetworkMagic in StdRunNodeArgs
+  * consensus: make the protocol versions a low-level argument
+  * consensus: fix whitespace
+  * consensus: change prefix of LowLevelRunNodeArgs from rn- to llrn-
+  * consensus: move clock skew from RunNodeArgs to LowLevelRunNodeArgs
+  * consensus: rename NodeArgs to NodeKernelArgs
+  * consensus: move customise* fields of RunNodeArgs to LowLevelRunNodeArgs
+  * consensus: put a ChainDbArgs Defaults field in LowLevelRunNodeArgs
+  * consensus: re-simplify Node.run interface
+  * consensus: parameterize Node.run over the address types
+  * consensus: decouple Node.run from randomIO, including ChainSyncTimeout
+  * consensus: introduce HardForkBlockchainTimeArgs record
+  * consensus: decouple Node.run from ChainDB file system
+  * consensus: decouple Node.run from the checking/marking of the DB
+  * consensus: parameterize RunNodeArgs over version data type
+  * consensus: parameterize Node.run over the diffusion layer
+  * network: parameterize DiffusionApplications record
+  * Add a class for injecting into an n-ary sum
+  * Update precondition on compareAnchoredFragments and check it
+  * Allow permanent, named ledger snapshots and number based on slot
+  * Clarify chain selection
+  * Update dependency on cardano-base
+
+-------------------------------------------------------------------
+Sat Oct 31 01:28:24 UTC 2020 - Mark Stopka <mstopka@opensuse.org>
+
+- Initial package

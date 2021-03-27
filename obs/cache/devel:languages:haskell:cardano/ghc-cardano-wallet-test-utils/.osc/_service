@@ -1,0 +1,16 @@
+<services>
+  <service mode="disabled" name="tar_scm">
+    <param name="url">https://github.com/input-output-hk/cardano-wallet.git</param>
+    <param name="scm">git</param>
+    <param name="changesgenerate">enable</param>
+    <param name="filename">cardano-wallet-test-utils</param>
+    <param name="subdir">lib/test-utils</param>
+    <param name="revision">v2020-12-08</param>
+    <param name="versionformat">2020.12.8</param>
+  </service>
+  <service mode="disabled" name="recompress">
+    <param name="file">*.tar</param>
+    <param name="compression">xz</param>
+  </service>
+  <service mode="disabled" name="set_version"/>
+</services>

@@ -1,0 +1,8 @@
+<package name="ghc-goblins" project="devel:languages:haskell:cardano">
+  <title>Genetic algorithm based randomised testing</title>
+  <description>Genetic algorithm based randomised testing.
+
+</description>
+  <url>https://github.com/input-output-hk/goblins</url>
+</package>
+

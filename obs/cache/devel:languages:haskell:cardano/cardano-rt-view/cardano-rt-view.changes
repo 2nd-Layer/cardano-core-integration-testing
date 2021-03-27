@@ -1,0 +1,89 @@
+-------------------------------------------------------------------
+Sun Dec 20 19:59:04 UTC 2020 - Mark Stopka <mstopka@opensuse.org>
+
+- Update BuildRequires dependencies
+
+-------------------------------------------------------------------
+Sun Dec 20 05:37:18 UTC 2020 - Mark Stopka <mstopka@opensuse.org>
+
+- Update to version 0.3.0:
+  * CHANGELOG for 0.3.0.
+  * Bump version to 0.3.0.
+  * CAD-2194: email notifications.
+  * Fix Darwin build, update memory Bytes.
+  * CAD-2400: select Panes columns.
+  * CAD-2364: new metrics, new namespaces.
+  * Update README.rst
+  * CAD-2383: one single view mode.
+  * CAD-2379: add RTView logging feature.
+  * CAD-2365: remove space leak on Errors.
+  * CAD-2357: display an ifo about RTView.
+  * Fix Haddock build.
+
+-------------------------------------------------------------------
+Thu Nov 26 18:00:17 UTC 2020 - Mark Stopka <mstopka@opensuse.org>
+
+- Change package summary to "Cardano RTView"
+
+-------------------------------------------------------------------
+Thu Nov 26 17:04:04 UTC 2020 - Mark Stopka <mstopka@opensuse.org>
+
+- Update to version 0.2.0:
+  * Use cassava package for proper CSV linebreaks in Windows.
+  * Use csv package for proper CSV encoding.
+  * CAD-2336: fix Download as CSV feature.
+  * CAD-2328: CHANGELOG for 0.2.0.
+  * Update node-configuration.md
+  * Update faq.md
+  * CAD-2327: all errors namespaces described.
+  * CAD-2315: explicitly update DOM-elements.
+  * CAD-2315: tmp
+  * CAD-2326: fix Node commit href.
+  * CAD-2325: add Warnings in Errors tab.
+  * CAD-2320: fix Node commit href.
+  * CAD-2321: add Node start time.
+  * CAD-2322: rename System start time.
+  * Internal web-server uses 0.0.0.0 now.
+  * Add the support of cardano-node-1.23.0.
+  * Remove testing error messages.
+  * CAD-2079: Improve Errors tab.
+  * Update README.rst
+  * Update README.rst
+  * Cleanup builds: remove unnecessary CI, we have Hydra.
+  * Update haskell.yml
+  * Create haskell.yml
+  * Cleanup: remove unused HTML classes, make hlint happy.
+  * Simlify code a litle bit, using extra package.
+  * CAD-2235: fix Resources charts.
+  * CAD-2234: HashMap instead of Map.
+  * CAD-2165: optimize page traffic.
+  * CAD-2208: check and show supported versions of cardano node.
+  * CAD-2207: idle node mark was added.
+  * LiveView to RView guide
+  * CAD-2195: improve documentation.
+  * CAD-2206: sockets connection by default.
+  * CAD-2204: JSON instead of YAML for internal config.
+  * CAD-2203: bump version from 0.1.0 to 0.2.0
+  * CAD-2202: show its version.
+  * CAD-2199: STM instead of MVar for nodes state
+  * CAD-2198: prepare for nodeBasicInfo.
+  * CAD-2144: improve markup structure.
+  * CAD-2141: cleanup HTML markup.
+  * CAD-2042: Re-structure node state.
+  * Simplify HTML classes.
+  * Test suite preparation.
+  * CAD-2120: fix Windows encoding in terminal.
+  * CAD-2068: move to GHC 8.10.2.
+  * Tech debt: restructure modules.
+  * CAD-2080: JSON examples instead of YAML.
+  * CAD-2078: add KES remaining in days.
+  * Fix Darwin-specific build.
+  * Fix Linux-specific build, fix forM_.
+  * Cleanup: less deps, no more cardano-prelude.
+  * Update documentation links in README
+  * Update README.rst
+
+-------------------------------------------------------------------
+Sun Oct 25 10:37:03 UTC 2020 - Mark Stopka <mstopka@opensuse.org>
+
+- initial package 

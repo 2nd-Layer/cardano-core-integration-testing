@@ -1,0 +1,8 @@
+<package name="ghc-cardano-config" project="devel:languages:haskell:cardano">
+  <title>Types and functions necessary to configure cardano-node</title>
+  <description>This package exposes the types and functions necessary to configure the cardano-node.
+
+</description>
+  <url>https://github.com/input-output-hk</url>
+</package>
+

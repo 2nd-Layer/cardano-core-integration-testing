@@ -1,0 +1,8 @@
+<directory name="ghc-cardano-prelude" rev="7" vrev="5" srcmd5="653b48d9f12a4a12acf6bbc5e39af474">
+  <serviceinfo code="succeeded" xsrcmd5="a382a2e94dca75132c8f065083be16a2" />
+  <entry name="_service" md5="5ab589bc224c56522f29fe33b6c8446a" size="622" mtime="1607621527" />
+  <entry name="_servicedata" md5="55cc635491939b5f1e845a906e49d94f" size="472" mtime="1607621531" />
+  <entry name="cardano-prelude-0.1.0.0.tar.xz" md5="7c15b45f9c1637266c46a799f8f222d5" size="23952" mtime="1607621535" />
+  <entry name="ghc-cardano-prelude.changes" md5="7856e08e7583f086b7d8c9f31977dfe9" size="1244" mtime="1607621539" />
+  <entry name="ghc-cardano-prelude.spec" md5="5c6884c9d1964a7fa766758c06b13491" size="2431" mtime="1606668280" />
+</directory>

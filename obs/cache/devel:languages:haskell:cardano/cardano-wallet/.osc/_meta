@@ -1,0 +1,8 @@
+<package name="cardano-wallet" project="devel:languages:haskell:cardano">
+  <title>Wallet backend protocol-specific bits implemented using Shelley nodes</title>
+  <description>Wallet backend protocol-specific bits implemented using Shelley nodes.
+
+</description>
+  <url>https://github.com/input-output-hk/cardano-wallet/tree/master/lib/shelley</url>
+</package>
+

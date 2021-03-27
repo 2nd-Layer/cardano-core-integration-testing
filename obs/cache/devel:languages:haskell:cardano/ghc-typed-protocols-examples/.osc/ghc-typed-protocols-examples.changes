@@ -1,0 +1,11 @@
+-------------------------------------------------------------------
+Sun Nov 29 18:14:45 UTC 2020 - mimi.vx@gmail.com
+
+- Update to version 0.1.0.0:
+  * Renamed network test components
+  * MonadTimer: export DiffTime
+
+-------------------------------------------------------------------
+Fri Oct 30 23:04:15 UTC 2020 - Mark Stopka <mstopka@opensuse.org>
+
+- Initial package
