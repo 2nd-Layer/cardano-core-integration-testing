@@ -34,18 +34,17 @@ jobs:
           directory: 'obs/cache/'
   docker-check:
     runs-on: ubuntu-latest
-    name: Check cardano-node Docker images version on Docker Hub
+    name: Check Cardano Docker images versions on Docker Hub
     strategy:
       matrix:
-        docker_base_image: [centos, osleap, ostw]
-        docker_application: [ cardano-node, cardano-cli, cardano-rt-view]
+        docker_base_image: [ centos ]
+        docker_application: [ cardano-node ]
     steps:
       - name: Checkout Git repository
         uses: actions/checkout@v2
         with:
-          persist-credentials: false
           fetch-depth: 0
-      - name: Chech tag centos-cardano-node version from Docker Hub
+      - name: Chech tag ${{ matrix.docker_base_image }}-${{ matrix.docker_application }} version from Docker Hub
         run: scripts/docker-hub-check.sh
         env:
           DOCKER_BASE_IMAGE: ${{ matrix.docker_base_image }}
