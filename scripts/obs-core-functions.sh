@@ -2,6 +2,16 @@
 
 set -e
 
+if [ ! -z ${GITHUB_WORKSPACE} ]; then
+  GITHUB_WORKSPACE=$(git rev-parse --show-toplevel)
+fi
+
+OBS_CONFIG_PROJECTS_JSON_FILE="${GITHUB_WORKSPACE}/obs/config/projects.json"
+
+OBS_PRJ_STABLE=$(jq -r '.stable' < ${GITHUB_WORKSPACE}/obs/config/projects.json)
+OBS_PRJ_NIGHTLY=$(jq -r '.nightly' < ${GITHUB_WORKSPACE}/obs/config/projects.json)
+
+
 OBS_CONFIG_PROJECTS_JSON_FILE="${GITHUB_WORKSPACE}/obs/config/projects.json"
 
 OBS_PRJ_STABLE=$(jq -r '.stable' < ${GITHUB_WORKSPACE}/obs/config/projects.json)
