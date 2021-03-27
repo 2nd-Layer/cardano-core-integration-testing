@@ -34,7 +34,7 @@ jobs:
           directory: 'obs/cache/'
   docker-check:
     runs-on: ubuntu-latest
-    name: Check cardano-node Docker images version on Docker Hub
+    name: Check Cardano Docker images versions on Docker Hub
     strategy:
       matrix:
         docker_base_image: [centos]
