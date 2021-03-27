@@ -1,3 +1,2 @@
 <project name="devel:languages:haskell:cardano:nightly">
-  <package name="cardano-rt-view" state=" " />
-</project>
+  </project>
