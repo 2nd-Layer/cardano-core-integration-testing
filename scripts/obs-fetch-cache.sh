@@ -2,7 +2,7 @@
 
 set -e
 
-source scripts/obs-core-functions.sh
+source ${GITHUB_WORKSPACE}/scripts/obs-core-functions.sh
 
 if ! which osc >/dev/null 2>&1; then
   echo "osc is not installed!"
@@ -20,7 +20,7 @@ if [ ! -f ~/.oscrc ]; then
   echo 'pass='${PERLUR_OBS_AUTOMATION_PASS} >> ~/.oscrc
 fi
 
-pushd ${GIT_ROOT}/obs/cache/
+pushd ${GITHUB_WORKSPACE}/obs/cache/
 
 if [ -d ${OBS_PRJ_STABLE} ]; then
   pushd ${OBS_PRJ_STABLE}
