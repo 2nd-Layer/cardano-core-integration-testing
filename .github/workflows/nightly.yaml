@@ -49,3 +49,21 @@ jobs:
         env:
           DOCKER_BASE_IMAGE: ${{ matrix.docker_base_image }}
           DOCKER_APPLICATION: ${{ matrix.docker_application }}
+  make-build-plans:
+    runs-on: ubuntu-latest
+    name: Make Haskell Cabal Install build plans
+    strategy:
+      matrix:
+        docker_application: [ cardano-node, cardano-rt-view, cardano-wallet ]
+    steps:
+      - name: Checkout Git repository
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - name: Build osleap-plan2rpms Docker images
+        run: scripts/obs-build-osleap-plan2rpms.sh
+      - name: Make cabal-install build plans for ${{ matrix.docker_application }}
+        run: scripts/obs-plan2obs.sh
+        env:
+          DOCKER_APPLICATION: ${{ matrix.docker_application }}
