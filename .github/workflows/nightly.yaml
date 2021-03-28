@@ -61,6 +61,8 @@ jobs:
         with:
           persist-credentials: false
           fetch-depth: 0
+      - name: Install Open Build Service commander
+        run: sudo apt-get install osc python3-m2crypto
       - name: Build osleap-plan2rpms Docker image
         run: scripts/obs-build-osleap-plan2rpms.sh
       - name: Make cabal-install build plans for ${{ matrix.docker_application }}
