@@ -12,29 +12,34 @@ RUN git clone --recurse-submodules https://github.com/input-output-hk/${APPLICAT
 WORKDIR /usr/src/${APPLICATION}
 RUN git fetch --all
 RUN git checkout ${APPLICATION_VERSION}
+COPY cabal.project.local ./
 
 RUN cabal new-update
 RUN cabal new-build \
   --allow-newer \
   --allow-older \
+  --disable-tests \
+  --disable-benchmarks \
   --avoid-reinstalls \
   --dry-run \
   --only-configure \
+  -f -external-libsodium-vrf \
   all
 
 WORKDIR /usr/src
 RUN plan2rpms.sh
-RUN cat installable-hackage-dependencies.txt | xargs zypper -n install \
-  --allow-downgrade \
-  --allow-vendor-change
+RUN cat installable-hackage-dependencies.txt | grep -v ghc-loop | xargs zypper -n install
 
 WORKDIR /usr/src/${APPLICATION}
 RUN cabal new-build \
   --allow-newer \
   --allow-older \
+  --disable-tests \
+  --disable-benchmarks \
   --avoid-reinstalls \
   --dry-run \
   --only-configure \
+  -f -external-libsodium-vrf \
   all
 
 WORKDIR /usr/src
@@ -52,5 +57,8 @@ WORKDIR /usr/src/${APPLICATION}
 RUN cabal new-build \
   --allow-newer \
   --allow-older \
+  --disable-tests \
+  --disable-benchmarks \
   --avoid-reinstalls \
+  -f -external-libsodium-vrf \
   all
