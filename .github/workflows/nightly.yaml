@@ -61,7 +61,7 @@ jobs:
         with:
           persist-credentials: false
           fetch-depth: 0
-      - name: Build osleap-plan2rpms Docker images
+      - name: Build osleap-plan2rpms Docker image
         run: scripts/obs-build-osleap-plan2rpms.sh
       - name: Make cabal-install build plans for ${{ matrix.docker_application }}
         run: scripts/obs-plan2obs.sh
