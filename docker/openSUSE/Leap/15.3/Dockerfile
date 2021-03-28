@@ -16,6 +16,8 @@ RUN zypper -n install cabal-install \
       jq \
       libsodium-devel
 
+COPY plan2rpms.sh /usr/local/bin/
+
 WORKDIR /usr/src
 RUN git clone --recurse-submodules https://github.com/input-output-hk/${APPLICATION}
 WORKDIR /usr/src/${APPLICATION}
@@ -36,8 +38,7 @@ RUN cabal new-build \
   all
 
 WORKDIR /usr/src
-COPY plan2rpms.sh ./
-RUN ./plan2rpms.sh
+RUN plan2rpms.sh
 RUN cat installable-hackage-dependencies.txt | xargs zypper -n install
 
 WORKDIR /usr/src/${APPLICATION}
