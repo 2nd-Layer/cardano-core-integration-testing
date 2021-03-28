@@ -4,7 +4,7 @@ set -e
 
 export PLAN_ORIG_JSON=$(find $(pwd) -name plan.json)
 
-cp ${PLAN_ORIG_JSON} plan.json
+cp ${PLAN_ORIG_JSON} ./
 
 # Sub-select cabal-install plan to separate file
 jq '."install-plan" | map(.)' < ${PLAN_ORIG_JSON} > plan.install.json
