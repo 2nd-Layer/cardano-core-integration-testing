@@ -2,7 +2,10 @@
 
 set -e
 
-source ${GITHUB_WORKSPACE}/scripts/obs-core-functions.sh
+if [ -z "${GITHUB_WORKSPACE}" ]; then
+  GITHUB_WORKSPACE=$(git rev-parse --show-toplevel)
+fi
+source "${GITHUB_WORKSPACE}/scripts/obs-core-functions.sh"
 
 if ! which osc >/dev/null 2>&1; then
   echo "osc is not installed!"
