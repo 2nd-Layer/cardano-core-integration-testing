@@ -29,7 +29,7 @@ function clean_dirty_project() {
 }
 
 function osc_repair_wc() {
-  for dir in `ls`; do
+  for dir in $(ls); do
     osc repairwc ${dir}
   done
 }
