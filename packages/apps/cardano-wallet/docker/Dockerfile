@@ -5,6 +5,7 @@ ARG APPLICATION_VERSION="master"
 
 RUN zypper refresh -s
 RUN zypper -n dist-upgrade
+RUN zypper -n install libsodium-devel
 
 WORKDIR /usr/src
 RUN git clone --recurse-submodules https://github.com/input-output-hk/${APPLICATION}
