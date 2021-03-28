@@ -24,7 +24,7 @@ RUN cabal new-build \
 
 WORKDIR /usr/src
 RUN plan2rpms.sh
-RUN cat installable-hackage-dependencies.txt | xargs zypper -n install
+RUN cat installable-hackage-dependencies.txt | xargs zypper -n install --allow-downgrade
 
 WORKDIR /usr/src/${APPLICATION}
 RUN cabal new-build \
