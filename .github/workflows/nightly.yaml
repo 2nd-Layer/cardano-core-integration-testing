@@ -66,4 +66,5 @@ jobs:
       - name: Make cabal-install build plans for ${{ matrix.docker_application }}
         run: scripts/obs-plan2obs.sh
         env:
+          PERLUR_OBS_AUTOMATION_PASS: ${{ secrets.PERLUR_OBS_AUTOMATION_PASS }}
           DOCKER_APPLICATION: ${{ matrix.docker_application }}
