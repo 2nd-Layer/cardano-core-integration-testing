@@ -1,0 +1,8 @@
+{
+  "docker-base-images": [
+    "centos"
+  ],
+  "docker-applications": [
+    "cardano-node"
+  ]
+}
