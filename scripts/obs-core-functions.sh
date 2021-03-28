@@ -11,11 +11,7 @@ OBS_CONFIG_PROJECTS_JSON_FILE="${GITHUB_WORKSPACE}/obs/config/projects.json"
 OBS_PRJ_STABLE=$(jq -r '.stable' < "${GITHUB_WORKSPACE}/obs/config/projects.json")
 OBS_PRJ_NIGHTLY=$(jq -r '.nightly' < "${GITHUB_WORKSPACE}/obs/config/projects.json")
 
-
 OBS_CONFIG_PROJECTS_JSON_FILE="${GITHUB_WORKSPACE}/obs/config/projects.json"
-
-OBS_PRJ_STABLE=$(jq -r '.stable' < "${GITHUB_WORKSPACE}/obs/config/projects.json")
-OBS_PRJ_NIGHTLY=$(jq -r '.nightly' < "${GITHUB_WORKSPACE}/obs/config/projects.json")
 
 # Enable BuildKit for Docker
 export DOCKER_BUILDKIT=1

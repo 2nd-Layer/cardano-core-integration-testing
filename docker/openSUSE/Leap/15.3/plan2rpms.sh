@@ -2,7 +2,7 @@
 
 set -e
 
-export PLAN_ORIG_JSON=$(find $(pwd) -name plan.json)
+export PLAN_ORIG_JSON=$(find $(pwd)/${APPLICATION} -name plan.json)
 
 cp ${PLAN_ORIG_JSON} ./
 
